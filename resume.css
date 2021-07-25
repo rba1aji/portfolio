@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+:root{
+  --bg:#001f3f;
+  --bwhite: #dddddd;
+  }
+*{
+  margin:0; 
+  padding:0;
+}
+body{
+  background:var(--bg);
+  padding:0;
+  margin:0;
+  }
+h1{
+  font-family: 'Otomanopee One', sans-serif;
+  font-size:50px;
+  text-align:left;
+  line-height:70px;
+  color:var(--bwhite);
+  text-shadow: black 0px 3px 3px;
+  width:max-content;
+  height:max-content;
+  }
+h2{
+  font-family: 'Otomanopee One', sans-serif;
+  font-size:40px;
+  text-shadow: black 0px 3px 3px;
+  z-index:-1;
+  text-align:center;
+  }
+#B{
+  font-size:70px;
+  margin-left:3px;
+  color:crimson;
+  text-shadow:-7px -1px 0  #46b59b, black 0px 3px 3px;
+  animation: effectB 10s ease forwards;
+  animation-iteration-count: infinite;
+}
+  @keyframes effectB{
+    25%{font-size:60px; transform:rotate(90deg);}
+    50%{font-size:75px;}
+    75%{font-size:60px;transform:rotate(-90deg);}
+    100%{font-size:75px;}
+   }
+#he1{
+  margin:60% 0 0 30px;
+  position: relative;
+  animation: effect1 1.5s ease forwards;
+  width:max-content;
+  height:max-content;
+  }
+  @keyframes effect1{
+    25%{font-size:45px; transform:rotate(5deg);}
+    50%{font-size:50px;}
+    75%{font-size:45px;transform:rotate(-5deg);}
+    100%{font-size:50px;}
+    }
+#he2{
+  margin:0 0 0 30px;
+  position: relative;
+  }
+#he2::before,
+#he2::after{
+  content:"";
+  position: absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  }
+#he2::before{
+  background:var(--bg);
+  animation: effect2 2s steps(11) forwards;
+  }
+  @keyframes effect2{
+    to{left:100%;}
+    }
+#h2{
+  margin:5px 0 0 30px;
+  color:var(--bwhite);
+  width:max-content;
+  height:41px;
+	}
+#h2::before,
+#h2::after{
+  content:"";
+  position: absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  }
+#h2::before{
+  background:var(--bg);
+  animation: effect3 2.5s steps(13) forwards;
+  }
+  @keyframes effect3{
+    to{left:100%;}
+    }
+#o{
+  opacity:0;
+  animation: effecto 0.6s ease forwards;
+  animation-delay:2.6s;
+  }
+  @keyframes effecto{
+    0%{position: relative; right:-100px; opacity:100%;}
+    25%{position: relative; right:-70px; bottom:30px; opacity:100%;}
+    50%{position: relative; right:-50px; bottom:15px; opacity:100%;}
+    75%{position: relative; right:-30px; bottom:40px; opacity:100%; font-size:60px; right:0px}
+    100%{opacity:100%;}
+  }
+#h2:hover{
+  color:teal;
+  }
+h1:hover{
+  color:red;
+  }
+	
+ol{
+  display:block;
+  position:fixed;
+  overflow:hidden;
+  margin:0;
+  z-index:5;
+  top:0;
+  box-shadow: 0px 0px 10px black;
+  padding:15px 30px 10px 13px;
+  border-bottom:1px solid transparent;
+  background:var(--bg);
+  opacity:0;
+  animation:nav 1s linear forwards;
+  animation-delay:3.5s;
+  }
+  @keyframes nav{
+  	0%{opacity:100%;}
+  	100%{opacity:100%;}
+  }
+li{
+	float: left;
+	list-style-type: none;
+	width:25%;
+	text-shadow: black 0px 3px 3px;
+  }
+li a{
+	font-family:Arial;
+	font-size:20px;
+	color:white;
+	font-weight:900;
+	background:var(--bg);
+	padding:8px 15px 8px 15px;
+	text-decoration:none;
+	}
+li a:hover, li a:active{
+	color:crimson;
+	background: teal;
+	padding:8px 15px 8px 15px;
+	border-radius:5px;
+	transition-delay:0.1s;
+	}
+.about h2{
+	margin:100% 0 0 0;
+	color:teal;
+	text-align:center; 
+	}
+.about h2:hover{
+	color: crimson;
+	}
+.about{
+	position:static;
+	}
+p{
+	margin:20px 20px 10px 20px;
+	font-size:20px;
+	font-family:Arial;
+	color:white;
+	text-align: justify;
+	line-height:30px;
+	letter-spacing:0.7px;
+	font-weight:500;
+ }
+
+footer {
+	position: static;
+	display:block;
+	background:#001a33;
+	padding:5px;
+	}
