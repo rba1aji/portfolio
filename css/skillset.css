@@ -28,10 +28,10 @@
 
 .bar{
   background-color: #001a33;
-  padding: 2px;
+  padding: 1px;
   border-radius: 15px;
   margin-bottom: 5px;
-  font-size: 18px;
+  font-size: 20px;
   color:#001a33;
   font-weight: 800;
 }
