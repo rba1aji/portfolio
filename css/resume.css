@@ -12,6 +12,7 @@ body{
   background:var(--bg);
   padding:0;
   margin:0;
+  font-family:Arial;
   }
 h1{
   font-family: 'Otomanopee One', sans-serif;
@@ -40,15 +41,15 @@ h2{
   animation-iteration-count: infinite;
 }
   @keyframes effectB{
-    25%{font-size:60px; transform:rotate(90deg);}
+    25%{font-size:60px; transform:rotate(5deg);}
     50%{font-size:75px;}
-    75%{font-size:60px;transform:rotate(-90deg);}
+    75%{font-size:60px;transform:rotate(-5deg);}
     100%{font-size:75px;}
    }
 #he1{
   margin:50% 0 0 30px;
   position: relative;
-  animation: effect1 1.5s ease forwards;
+  animation: effect1 2s ease forwards;
   width:max-content;
   height:max-content;
   }
@@ -163,12 +164,14 @@ li a:hover, li a:active{
 .about{
 	margin:100% 0 0 0;
 	position:static;
+	height:100%;
 	}
 h2{
+    margin-top:10px;
 	color:teal;
 	text-align:center; 
 	}
-.about h2:hover{
+h2:hover{
 	color: crimson;
 	}
 p{
@@ -188,7 +191,6 @@ p{
 	}
 .skills{
 	position: static;
-	margin:auto;
 	height:100%;
 	}
 iframe{
