@@ -215,7 +215,6 @@ iframe{
 	}
 .works{
   position:static;
-  width:100%;
   height:100%;
   }
 .works img{
@@ -293,7 +292,9 @@ footer {
   height:40px;
   background:white;
   border-radius:5.01px;
+  margin:0 0 10% 10%;
   }
 .socialmedia{
-  
+  margin-top:20px;
+  margin-left:27.5%;
   }
