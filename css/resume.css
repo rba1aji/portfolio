@@ -23,6 +23,7 @@ h1{
   text-shadow: black 0px 3px 3px;
   width:max-content;
   height:max-content;
+  margin-top:50%;
   }
 h2{
   font-family: 'Otomanopee One', sans-serif;
@@ -31,6 +32,14 @@ h2{
   z-index:-1;
   text-align:center;
   top:40px;
+  }
+h3{
+  font-family: 'Otomanopee One', sans-serif;
+  font-size:25px;
+  text-shadow: black 0px 3px 3px;
+  text-align:center;
+  margin-top:15px;
+  color:teal;
   }
 #B{
   font-size:70px;
@@ -46,25 +55,26 @@ h2{
     75%{font-size:60px;transform:rotate(-5deg);}
     100%{font-size:75px;}
    }
-#he1{
+#hi{
   margin:50% 0 0 30px;
   position: relative;
   animation: effect1 2s ease forwards;
   width:max-content;
   height:max-content;
+  transition-delay:0.2s;
   }
   @keyframes effect1{
-    25%{font-size:45px; transform:rotate(5deg);}
+    25%{font-size:45px; transform:rotate(10deg);}
     50%{font-size:50px;}
-    75%{font-size:45px;transform:rotate(-5deg);}
+    75%{font-size:45px;transform:rotate(-10deg);}
     100%{font-size:50px;}
     }
-#he2{
+#Im{
   margin:0 0 0 30px;
   position: relative;
   }
-#he2::before,
-#he2::after{
+#Im::before,
+#Im::after{
   content:"";
   position: absolute;
   top:0;
@@ -72,21 +82,21 @@ h2{
   right:0;
   left:0;
   }
-#he2::before{
+#Im::before{
   background:var(--bg);
   animation: effect2 2s steps(11) forwards;
   }
   @keyframes effect2{
     to{left:100%;}
     }
-#h2{
+#position{
   margin:5px 0 0 30px;
   color:var(--bwhite);
   width:max-content;
   height:41px;
 	}
-#h2::before,
-#h2::after{
+#position::before,
+#position::after{
   content:"";
   position: absolute;
   top:0;
@@ -94,7 +104,7 @@ h2{
   right:0;
   left:0;
   }
-#h2::before{
+#position::before{
   background:var(--bg);
   animation: effect3 2.5s steps(13) forwards;
   }
@@ -113,7 +123,7 @@ h2{
     75%{position: relative; right:-30px; bottom:40px; opacity:100%; font-size:60px; right:0px}
     100%{opacity:100%;}
   }
-#h2:hover{
+#position:hover{
   color:teal;
   }
 h1:hover{
@@ -195,7 +205,7 @@ p{
 	}
 iframe{
 	display:flex;
-	margin:20px auto auto auto;
+	margin:40px auto auto auto;
 	align-items: center;
 	border:1px solid white;
 	width:300px; 
@@ -241,7 +251,7 @@ iframe{
         
       }
      .text a{
-        background:red;
+        background:crimson;
         padding:5px;
         border-radius:5px;
         font-size:18px;
@@ -260,3 +270,29 @@ footer {
 	background:var(--darkbg);
 	padding:5px;
 	}
+.up-arrow img{
+  width:40px;
+  height:45px;
+  position:fixed;
+  right:5px;
+  bottom:20px;
+  animation: up-arrow 2s ease infinite;
+  }
+  @keyframes up-arrow{
+    0%{bottom:20px;}
+    50%{bottom:25px;}
+    100%{bottom:18px;}
+    }
+.contact{
+  position:static;
+  height:100%;
+  }
+.contact img{
+  width:40px;
+  height:40px;
+  background:white;
+  border-radius:5.01px;
+  }
+.socialmedia{
+  
+  }
