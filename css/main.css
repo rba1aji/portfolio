@@ -14,6 +14,7 @@ body{
   margin:0;
   font-family:Arial;
   }
+  
 h1{
   font-family: 'Otomanopee One', sans-serif;
   font-size:50px;
@@ -235,6 +236,7 @@ iframe{
     }
  .middle{
     transition: 0.5 ease;
+    opacity:0%;
     z-index:-1;
     position: absolute;
     top:50%;
@@ -245,6 +247,7 @@ iframe{
     opacity:0.25;
     }
 .container:hover .middle{
+    opacity:100%;
     z-index:1;
     }
     .text{
@@ -295,6 +298,22 @@ footer {
   margin:0 0 10% 10%;
   }
 .socialmedia{
-  margin-top:20px;
+  margin-top:15px;
   margin-left:27.5%;
   }
+.lightning {
+  animation: lightning 9s infinite;
+  animation-delay:4.9s;
+  opacity:0;
+  }
+  @keyframes lightning {
+      20%, 100% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+    }
