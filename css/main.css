@@ -14,7 +14,9 @@ body{
   margin:0;
   font-family:Arial;
   }
-  
+header{
+  margin-top:50%;
+  }  
 h1{
   font-family: 'Otomanopee One', sans-serif;
   font-size:50px;
@@ -24,7 +26,6 @@ h1{
   text-shadow: black 0px 3px 3px;
   width:max-content;
   height:max-content;
-  margin-top:50%;
   }
 h2{
   font-family: 'Otomanopee One', sans-serif;
@@ -173,7 +174,7 @@ li a:hover, li a:active{
 	transition-delay:0.1s;
 	}
 .about{
-	margin:100% 0 0 0;
+	margin:50% 0 0 0;
 	position:static;
 	height:100%;
 	}
@@ -255,7 +256,7 @@ iframe{
       }
      .text a{
         background:crimson;
-        padding:5px;
+        padding:5px 8px;
         border-radius:5px;
         font-size:18px;
         text-decoration:none;
@@ -264,7 +265,7 @@ iframe{
         }
        .text a:hover{
          background:gray;
-         padding:5px;
+         padding:5px 8px;
          border-radius:5px;
          }
 footer {
@@ -301,13 +302,16 @@ footer {
   margin-top:15px;
   margin-left:27.5%;
   }
+.lightning img{
+  position:static;
+  }
 .lightning {
   animation: lightning 9s infinite;
   animation-delay:4.9s;
   opacity:0;
   }
   @keyframes lightning {
-      20%, 100% {
+      25%, 100% {
     opacity: 0;
   }
   0% {
