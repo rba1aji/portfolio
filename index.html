@@ -1,145 +1,323 @@
-<!DOCTYPE html>
-<html id="home">
-<head>
-  <meta lang="en"/>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-<link rel="stylesheet" href="css/main.css"/>
-<link rel="stylesheet" href="css/3dsphere.css"/>
-<link rel="stylesheet" href="css/skillset.css">
-</head>
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+:root{
+  --bg:#001f3f;
+  --bwhite: #dddddd;
+  --darkbg:#001a33;
+  }
+*{
+  margin:0; 
+  padding:0;
+}
+body{
+  background:var(--bg);
+  padding:0;
+  margin:0;
+  font-family:Arial;
+  }
+header{
+  margin-top:50%;
+  }  
+h1{
+  font-family: 'Otomanopee One', sans-serif;
+  font-size:50px;
+  text-align:left;
+  line-height:70px;
+  color:var(--bwhite);
+  text-shadow: black 0px 3px 3px;
+  width:max-content;
+  height:max-content;
+  }
+h2{
+  font-family: 'Otomanopee One', sans-serif;
+  font-size:40px;
+  text-shadow: black 0px 3px 3px;
+  z-index:-1;
+  text-align:center;
+  top:40px;
+  }
+h3{
+  font-family: 'Otomanopee One', sans-serif;
+  font-size:25px;
+  text-shadow: black 0px 3px 3px;
+  text-align:center;
+  margin-top:15px;
+  color:teal;
+  }
+#B{
+  font-size:70px;
+  margin-left:3px;
+  color:crimson;
+  text-shadow:-7px -1px 0  #46b59b, black 0px 3px 3px;
+  animation: effectB 10s ease forwards;
+  animation-iteration-count: infinite;
+}
+  @keyframes effectB{
+    25%{font-size:60px; transform:rotate(5deg);}
+    50%{font-size:75px;}
+    75%{font-size:60px;transform:rotate(-5deg);}
+    100%{font-size:75px;}
+   }
+#hi{
+  margin:50% 0 0 30px;
+  position: relative;
+  animation: effect1 2s ease forwards;
+  width:max-content;
+  height:max-content;
+  transition-delay:0.2s;
+  }
+  @keyframes effect1{
+    25%{font-size:45px; transform:rotate(10deg);}
+    50%{font-size:50px;}
+    75%{font-size:45px;transform:rotate(-10deg);}
+    100%{font-size:50px;}
+    }
+#Im{
+  margin:0 0 0 30px;
+  position: relative;
+  }
+#Im::before,
+#Im::after{
+  content:"";
+  position: absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  }
+#Im::before{
+  background:var(--bg);
+  animation: effect2 2s steps(11) forwards;
+  }
+  @keyframes effect2{
+    to{left:100%;}
+    }
+#position{
+  margin:5px 0 0 30px;
+  color:var(--bwhite);
+  width:max-content;
+  height:41px;
+	}
+#position::before,
+#position::after{
+  content:"";
+  position: absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  }
+#position::before{
+  background:var(--bg);
+  animation: effect3 2.5s steps(13) forwards;
+  }
+  @keyframes effect3{
+    to{left:100%;}
+    }
+#o{
+  opacity:0;
+  animation: effecto 0.6s ease forwards;
+  animation-delay:2.7s;
+  }
+  @keyframes effecto{
+    1%{position: relative; right:-100px; opacity:100%;}
+    25%{position: relative; right:-70px; bottom:30px; opacity:100%;}
+    50%{position: relative; right:-50px; bottom:15px; opacity:100%;}
+    75%{position: relative; right:-30px; bottom:40px; opacity:100%; font-size:60px; right:0px}
+    100%{opacity:100%;}
+  }
+#position:hover{
+  color:teal;
+  }
+h1:hover{
+  color:red;
+  }
 
-<body>
-<!--------------------------------------
-----------------------------------------
-    		NAVIGATION BAR
-----------------------------------------
---------------------------------------->
-  <nav class="nav">
-    <ol>
-    <li><a href="#about">About</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#works">Works</a></li>
-    <li><a href="#contact">Contact</a></li>
-    </ol>
-  </nav>
-	
-<!--------------------------------------
-----------------------------------------
-     	 	 INTRO
-----------------------------------------
----------------------------------------->
-<header class="header">
- <h1 id="hi">Hi,</h1>
-
- <h1 id="Im">I'm <span style="color:white;"><span id="B">B</span>alaji,</span></h1>
-
- <h2 id="position">Web devel<span id="o">o</span>per</h2>
- 
- <img class="lightning" style="margin-top:35px; position:absolute" width="100%" src="gif/lightning_lowspeed.gif"/>
-</header>
-
-<!--------------------------------------
-----------------------------------------
-     	  	 ABOUT ME
-----------------------------------------
---------------------------------------->
-<section class="about">
-	<div class="empty" id="about"></div>
-<h2 style="margin-top:10px;">About me</h2>
-
-<p>&nbsp; &nbsp;I am a first year student <img src="gif/hot.gif" width="35px" style="vertical-align:middle;"/> studying Computer Science and Engineering at K S Rangasamy College of Technology.
-
-<br/><br/>&nbsp;&nbsp;I enjoy<img src="gif/fbhaha.gif" width="40px" style="vertical-align:middle;"/>surfing on the social media.
-
-<br/><br/>&nbsp; &nbsp;I<img src="gif/fblove.gif" width="40px" style="vertical-align:middle;"/>to play Chess and explore<img src="gif/explore.gif" width="35px" style="vertical-align:middle;"/> new stuff.
-
-<br/><br/>&nbsp; &nbsp;I wish to <img src="gif/hacker.gif" width="30px" style="vertical-align:middle;"/> develop attractive <img src="gif/fbwow.gif" width="25px" style="vertical-align:middle; border-radius:1000%;"/> and useful projects that give the real value to the end user.
-
-<br/><br/>&nbsp; &nbsp;My passion is towards <img src="gif/bignose.gif" width="35px" style="vertical-align:middle;"/>achieving something and making money<img src="gif/money.gif" width="35px" style="vertical-align:middle;"/>.
-</p>
-</section>
-
-<!--------------------------------------
-----------------------------------------
-     	  	 MY SKILLS
-----------------------------------------
---------------------------------------->
-<section class="skills">
-<div class="empty" id="skills"></div>
-	<h2 style="margin-top:30px">My Skills</h2>
-	<iframe src="3dsphere.html"></iframe>
-
-    <div class="container">
-   <!-- <div class="bar learning" data-skill=""></div>-->
-    <div class="bar front advanced" data-skill="FRONT END"></div>
-   <!-- <div class="bar front expert" data-skill="HTML"></div> -->
-    <div class="bar back basic" data-skill="BACK END"></div>
-    <div class="bar back2 intermediate" data-skill="SEO"></div>
-  </div>
-</section>
-
-<!--------------------------------------
-----------------------------------------
-     	   	MY WORKS
-----------------------------------------
---------------------------------------->
-<section class="works">
-  <div class="empty" id="works"></div>
-<h2 style="margin-top:40px">My Works</h2>
-
-<div class="container">
-  <img src="works/temperature_converter_app.png" class="image"/>
-  <div class="middle">
-  <div class="text"><a href="https://temperatureconverter.vercel.app">Check out</a></div>
-  </div>
-</div>
- 
-<div class="container">
-  <img src="works/cutt_off_calculator.png" class="image"/>
-  <div class="middle">
-  <div class="text"><a href="https://cuttoff-calculator.vercel.app">Check out</a></div>
-  </div>
-</div>
-</section>
-<div class="empty" id="contact"></div>
-
-<!--------------------------------------
-----------------------------------------
- 	          CONTACT
-----------------------------------------
---------------------------------------->
-<section class="contact">
-  <div class="empty" id="contact"></div>
-  <h3>Connect with Me</h3>
-  <div class=socialmedia>
-  <a href="https://www.linkedin.com/in/-r-balaji-"><img src="gif/linkedin.png"/></a>
-  <a href="https://www.github.com/rbalajii"><img src="gif/github.jpg"/></a>
-  </div>
-  
-</section>
-
-<!--------------------------------------
-----------------------------------------
-     	   	 FOOTER
-----------------------------------------
---------------------------------------->
-<footer>
-	<p style="text-align:center; color:black;">
-	<span style="color:black;"><span style="position: relative; font-size:30px; bottom:-4px;">&#169;</span>oded</span></span>
-	with &#x1F49A; by <span style="color:black;">&#60;Balaji/&#62;</span></p>
-</footer>
-
-<!--------------------------------------
-----------------------------------------
-     	      UP ARROW
-----------------------------------------
---------------------------------------->
-<div class="up-arrow">  
-  <a href="#home"><img src="gif/up-arrow.png"/></a>
-</div>
-
-</body>
-</div> 
-</html>
+ol{
+  display:block;
+  position:fixed;
+  overflow:hidden;
+  margin:0;
+  z-index:5;
+  top:0;
+  box-shadow: 0px 0px 10px black;
+  padding:15px 30px 10px 13px;
+  border-bottom:1px solid transparent;
+  background:var(--darkbg);
+  opacity:0;
+  animation:nav 1s linear forwards;
+  animation-delay:3.5s;
+  }
+  @keyframes nav{
+  	0%{opacity:100%;}
+  	100%{opacity:100%;}
+  }
+li{
+	float: left;
+	list-style-type: none;
+	width:25%;
+	text-shadow: black 0px 3px 3px;
+  }
+li a{
+	font-family:Arial;
+	font-size:20px;
+	color:white;
+	font-weight:900;
+	background:var(--darkbg);
+	padding:8px 15px 8px 15px;
+	text-decoration:none;
+	}
+li a:hover, li a:active{
+	color:crimson;
+	background: teal;
+	padding:8px 15px 8px 15px;
+	border-radius:5px;
+	transition-delay:0.1s;
+	}
+.about{
+	margin:50% 0 0 0;
+	position:static;
+	height:100%;
+	}
+h2{
+    margin-top:10px;
+	color:teal;
+	text-align:center; 
+	}
+h2:hover{
+	color: crimson;
+	}
+p{
+	margin:20px 20px 10px 20px;
+	font-size:20px;
+	font-family:Arial;
+	color:white;
+	text-align: justify;
+	line-height:30px;
+	letter-spacing:0.7px;
+	font-weight:500;
+ }
+.empty{
+	width:100px;
+	height:45px;
+	background:var(--bg);
+	}
+.skills{
+	position: static;
+	height:100%;
+	}
+iframe{
+	display:flex;
+	margin:40px auto auto auto;
+	align-items: center;
+	border:1px solid white;
+	width:300px; 
+	height:300px;
+	border:1px solid var(--darkbg);
+    border-radius:50%;
+	}
+.works{
+  position:static;
+  height:100%;
+  }
+.works img{
+  width:150px;
+  height:150px;
+  border-radius:15px;
+  display:block;
+  margin:50px auto 75px auto;
+  align-items:center;
+  box-shadow: 0 4px 8px 0 #1a1a1a, 0 6px 20px 0 #1a1a1a;
+  opacity:1;
+  transition:0.5 ease;
+  backface-visibility:hidden;
+  }
+  .container {
+    position: relative;
+    width:50%;
+    }
+ .middle{
+    transition: 0.5 ease;
+    opacity:0%;
+    z-index:-1;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+    }
+.container:hover img{ 
+    opacity:0.25;
+    }
+.container:hover .middle{
+    opacity:100%;
+    z-index:1;
+    }
+    .text{
+        
+      }
+     .text a{
+        background:crimson;
+        padding:5px 8px;
+        border-radius:5px;
+        font-size:18px;
+        text-decoration:none;
+        color:white;
+        font-weight:800;
+        }
+       .text a:hover{
+         background:gray;
+         padding:5px 8px;
+         border-radius:5px;
+         }
+footer {
+	position: static;
+	display:block;
+	background:var(--darkbg);
+	padding:5px;
+	}
+.up-arrow img{
+  width:40px;
+  height:45px;
+  position:fixed;
+  right:5px;
+  bottom:20px;
+  animation: up-arrow 2s ease infinite;
+  }
+  @keyframes up-arrow{
+    0%{bottom:20px;}
+    50%{bottom:25px;}
+    100%{bottom:18px;}
+    }
+.contact{
+  position:static;
+  height:100%;
+  }
+.contact img{
+  width:40px;
+  height:40px;
+  background:white;
+  border-radius:5.01px;
+  margin:0 0 10% 10%;
+  }
+.socialmedia{
+  margin-top:15px;
+  margin-left:27.5%;
+  }
+.lightning img{
+  position:static;
+  }
+.lightning {
+  animation: lightning 9s infinite;
+  animation-delay:4.9s;
+  opacity:0;
+  }
+  @keyframes lightning {
+      25%, 100% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+    }
