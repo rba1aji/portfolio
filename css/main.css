@@ -14,7 +14,7 @@ body{
   margin:0;
   font-family:Arial;
   }
-ol{
+nav ol{
   display:block;
   position:fixed;
   overflow:hidden;
@@ -33,13 +33,13 @@ ol{
   	0%{opacity:100%;}
   	100%{opacity:100%;}
   }
-li{
+nav li{
 	float: left;
 	list-style-type: none;
 	width:25%;
 	text-shadow: black 0px 3px 3px;
   }
-li a{
+nav li a{
 	font-family:Arial;
 	font-size:20px;
 	color:white;
@@ -48,7 +48,7 @@ li a{
 	padding:8px 15px 8px 15px;
 	text-decoration:none;
 	}
-li a:hover, li a:active{
+nav li a:hover, li a:active{
 	color:crimson;
 	background: teal;
 	padding:8px 15px 8px 15px;
@@ -226,7 +226,7 @@ h1:hover{
 	position: static;
 	height:100%;
 	}
-iframe{
+.skills iframe{
 	display:flex;
 	margin:40px auto auto auto;
 	align-items: center;
@@ -301,19 +301,8 @@ iframe{
   border-radius:5.01px;
   margin:0 0 10% 10%;
   }
-.socialmedia{
-  margin-top:15px;
-  margin-left:27.5%;
-  }
 
-.up-arrow img{
-  width:40px;
-  height:45px;
-  position:fixed;
-  right:5px;
-  bottom:20px;
-  animation: up-arrow 2s ease infinite;
-  }
+
   @keyframes up-arrow{
     0%{bottom:20px;}
     50%{bottom:25px;}
@@ -323,7 +312,7 @@ form{
   margin:25px 50px 35px 50px;
   position: relative;
   }
-form div {
+form div{
   background:#001a33;
   margin:10px 0 20px 0;
   border:2px solid teal;
@@ -352,8 +341,33 @@ input[type="submit"]{
   Margin-right:10px;
   border:1.5px solid crimson;
   padding:5px 20px;
-  background:#001a33;
+  background:var(--darkbg);
   color:white;
+  }
+input[type="submit"]:hover{
+  border:1.5px solid red;
+  }
+  
+.up-arrow img{
+  width:40px;
+  height:45px;
+  position:fixed;
+  right:5px;
+  bottom:20px;
+  animation: up-arrow 2s ease infinite;
+  }
+ 
+.socialmedia{
+  display:flex;
+  margin:auto;
+  padding-top:10px;
+  align-items:center;
+  justify-content:center;
+  }
+.socialmedia li{
+  float:left;
+  list-style:none;
+  Margin:0 15px;
   }
 footer {
 	position: static;
