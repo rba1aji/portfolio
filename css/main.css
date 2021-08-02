@@ -33,7 +33,7 @@ nav ol{
   opacity:0;
   -webkit-animation:nav 0.5s linear forwards;
   animation:nav 0.5s linear forwards;
-  animation-delay:0s;
+  animation-delay:6s;
   }
   
 nav li{
