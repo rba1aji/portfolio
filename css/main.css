@@ -76,7 +76,8 @@ h2{
   margin-top:10px;
   color:var(--bteal);
   text-align:center; 
-  font-weight:1200;
+  font-weight:900;
+  letter-spacing:1px;
 	}
 h3{
  /* font-family: 'Otomanopee One', sans-serif; */
@@ -86,6 +87,8 @@ h3{
   text-align:center;
   margin:15px 0;
   color:var(--bteal);
+  font-weight:900;
+  letter-spacing:0.5px;
   }
 h2:hover,h3:hover,h1:hover,#hi:hover{
     animation:h2hover 0.5s ease backwards;
