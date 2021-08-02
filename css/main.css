@@ -70,15 +70,15 @@ h1{
   }
 h2{
   font-family: 'nimbus', sans-serif;
-  font-size:40px;
-  text-shadow: black 0px 3px 3px;
-  top:40px;
-  margin-top:10px;
   color:var(--bteal);
+  font-size:40px;
   text-align:center; 
   font-weight:900;
   letter-spacing:1px;
+  text-shadow: black 0px 3px 3px;
+  text-shadow:0 0 .125em hsl(0 0% 100% /0.3), 0 0 .45em currentColor;
 	}
+
 h3{
  /* font-family: 'Otomanopee One', sans-serif; */
   font-family:'nimbus';
@@ -89,6 +89,7 @@ h3{
   color:var(--bteal);
   font-weight:900;
   letter-spacing:0.5px;
+  text-shadow:0 0 .125em hsl(0 0% 100% /0.3), 0 0 .45em currentColor;
   }
 h2:hover,h3:hover,h1:hover,#hi:hover{
     animation:h2hover 0.5s ease backwards;
@@ -153,6 +154,7 @@ header{
   position: relative;
   padding:0 0 0 30px;
   letter-spacing:-1px;
+  text-shadow: black 0px 3px 3px;
 	}
 #position::before,
 #position::after{
