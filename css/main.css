@@ -2,14 +2,13 @@
 @font-face {
     font-family: 'nimbus';
     src: url('../font/NimbusSanL-Bol-webfont.woff') format('woff');
-    font-weight: bolder;
-    font-style: normal;
+    font-style:normal;
 }
  
 :root{
   --bg:black;
   --bwhite:#f2f2f2;
-  --darkbg:   #0d0d0d;
+  --darkbg:#0d0d0d;
   --bteal:#00DCDC;
   }
 *{
@@ -36,7 +35,7 @@ nav ol{
   opacity:0;
   -webkit-animation:nav 0.5s linear forwards;
   animation:nav 0.5s linear forwards;
-  animation-delay:7s;
+  animation-delay:6s;
   }
   
 nav li{
@@ -55,25 +54,26 @@ nav li a{
 	text-decoration:none;
 	}
 nav li a:hover, a:active, a:focus{
+    cursor:pointer;
 	color: white;
 	background: teal;
 	padding:8px 15px 8px 15px;
 	border-radius:5px;
 	}
-h1{
+h1{  
   font-size:55px;
+  font-weight:700;
   text-align:left;
   line-height:70px;
   color:var(--bwhite);
   text-shadow: black 0px 3px 3px;
-  font-weight:900;
   }
 h2{
+  -webkit-font-weight:900;
   font-family: 'nimbus', sans-serif;
   color:var(--bteal);
-  font-size:40px;
+  font-size:45px;
   text-align:center; 
-  font-weight:900;
   letter-spacing:1px;
   text-shadow: black 0px 3px 3px;
   text-shadow:0 0 .125em hsl(0 0% 100% /0.3), 0 0 .45em currentColor;
@@ -87,11 +87,11 @@ h3{
   text-align:center;
   margin:15px 0;
   color:var(--bteal);
-  font-weight:900;
   letter-spacing:0.5px;
   text-shadow:0 0 .125em hsl(0 0% 100% /0.3), 0 0 .45em currentColor;
   }
 h2:hover,h3:hover,h1:hover,#hi:hover{
+    cursor:pointer;
     animation:h2hover 0.5s ease backwards;
     animation-iteration-count:1;
 	}
@@ -113,7 +113,7 @@ header{
 #hi{
   font-size:47px;
   font-family: 'nimbus';
-  margin-left:32px;
+  margin-left:30px;
   position: relative;
   line-height:55px;
   letter-spacing:-1px;
@@ -145,6 +145,7 @@ header{
   }
  
 #position{
+  font-weight:700;
   font-size:45px;
   font-family: 'nimbus';
   color:var(--bwhite);
@@ -173,7 +174,15 @@ header{
 #position:hover{
   color:var(--bteal);
   }
-  
+
+#comma{
+  animation:comma 0s ease forwards;
+  animation-delay:1.25s;
+  opacity:0;
+}  
+    @keyframes comma{
+      to{opacity:100%;}
+      }
 #B{
   font-size:65px;
   margin-left:3px;
@@ -311,7 +320,7 @@ input[type="text"],input[type="email"],textarea{
   background: transparent;
   outline:none;
   color:white;
-  font-weight:450;
+  font-weight:425;
   font-size:18px;
   padding:1px;
   }
@@ -324,14 +333,14 @@ label{
 input[type="submit"]{
   font-size:20px;
   float:right;
-  Margin-right:10px;
-  border:1.5px solid crimson;
-  padding:5px 20px;
+  Margin-right:0px;
+  border:2px solid crimson;
+  padding:7px 25px;
   background:var(--darkbg);
   color:white;
   }
 input[type="submit"]:hover{
-  border:1.5px solid red;
+  border:2px solid red;
   }
   
 .up-arrow img{
@@ -359,7 +368,8 @@ input[type="submit"]:hover{
   Margin:0 15px;
   }
 div.location h3{
-  padding:0 0 30px 0;
+  padding:0 0 15px 0;
+  letter-spacing:1.5px;
   }
 div.location iframe{
   position:static;
