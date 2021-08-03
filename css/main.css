@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 @font-face {
     font-family: 'nimbus';
     src: url('../font/NimbusSanL-Bol-webfont.woff') format('woff');
@@ -420,7 +422,8 @@ footer {
 	bottom:0;
 	}
 footer p{
-  font-family: courier;
+  font-family:Courier Prime;
+  font-weight:light thin;
   text-align:center;
   color:gray;
   }
