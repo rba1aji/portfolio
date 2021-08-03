@@ -49,9 +49,9 @@ nav li{
   }
 nav li a{
     font-family:Arial;
-	font-size:20px;
+	font-size:20.05px;
 	color:white;
-	font-weight:900;
+	font-weight:750;
 	background:var(--darkbg);
 	padding:8px 15px 8px 15px;
 	text-decoration:none;
@@ -95,6 +95,16 @@ h3{
   color:var(--bteal);
   letter-spacing:0.5px;
   text-shadow:0 0 .125em hsl(0 0% 100% /0.3), 0 0 .45em currentColor;
+  }
+h4{
+  font-family:'marienda', cursive;
+  font-size:30px;
+  color:teal;
+  margin:5px 30px 0 35px;
+  font-weight:200;
+  opacity:0;
+  animation:nav 0.5s linear forwards;
+  animation-delay:7s;
   }
 h2:hover,h3:hover,h1:hover,#hi:hover{
     cursor:pointer;
@@ -201,7 +211,7 @@ header{
   opacity:0;
   font-size:45px;
   -webkit-animation:effecto 1s linear forwards;
-  animation: effecto 1s ease forwards;
+  animation: effecto 0.75s ease forwards;
   animation-delay:6s;
   }
 
@@ -410,7 +420,7 @@ footer {
 	bottom:0;
 	}
 footer p{
-  font-style:cursive;
+  font-family: courier;
   text-align:center;
   color:gray;
   }
