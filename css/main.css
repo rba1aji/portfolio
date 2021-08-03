@@ -115,6 +115,8 @@ header{
   margin:auto;
   padding-top:50%;
   height:100%;
+  width:100%;
+  display:block;
   }  
 
 #hi{
@@ -203,6 +205,7 @@ header{
   animation-delay:6s;
   }
 
+/*
 .lightning img{
   position:static;
   }
@@ -214,6 +217,7 @@ header{
   opacity:0;
   animation-iteration-count:0;
   }
+*/
 
 .empty{
 	width:100px;
@@ -224,7 +228,9 @@ header{
 .about{
 	margin:50% 0 0 0;
 	position:static;
+	display:block;
 	height:100%;
+	width:100%;
 	}
 
 .skills{
