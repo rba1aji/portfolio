@@ -74,7 +74,6 @@ h1{
   text-shadow: black 0px 3px 3px;
   }
 h2{
-  position: relative;
   -webkit-font-weight:900;
   font-family: 'nimbus', sans-serif;
   color:var(--bteal);
