@@ -117,7 +117,7 @@ p{
 header{
   padding-top:27vh;
   margin:auto;
-  min-height:73vh;
+  min-height:100vh;
   width:100vw;
   display:block;
   }  
@@ -231,7 +231,7 @@ header{
 	}
 
 .about{
-	margin:100% 0 0 0;
+	margin: relative;
 	position:static;
 	display:block;
 	min-height:100vh;
