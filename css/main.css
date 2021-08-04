@@ -113,7 +113,7 @@ p{
 	text-align: justify;
 	line-height:30px;
 	letter-spacing:0.7px;
-	font-weight:500;
+	font-weight:475;
  }
 header{
   padding-top:27vh;
@@ -232,7 +232,7 @@ header{
 	}
 
 .about{
-	margin: relative;
+	margin:0 0.5vw;
 	position:static;
 	display:block;
 	min-height:100vh;
@@ -420,4 +420,7 @@ footer p{
   -webkit-animation:up-arrow 2s ease infinite;
   animation-delay:10s;
   opacity:0;
+  }
+.up-arrow img:hover{
+  border:gray 0.5px dotted;
   }
