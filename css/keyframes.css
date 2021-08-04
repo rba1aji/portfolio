@@ -58,7 +58,7 @@
     }  
 */
 @keyframes up-arrow{
-    0%{bottom:20px; opacity:100%;}
-    50%{bottom:25px; opacity:100%;}
-    100%{bottom:18px; opacity:100%;}
+    0%{bottom:20px; opacity:90%;}
+    50%{bottom:25px; opacity:90%;}
+    100%{bottom:18px; opacity:90%;}
     }
