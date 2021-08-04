@@ -19,13 +19,14 @@ body{
   font-family:Arial;
   }
 nav ol{
+  width:100vw;
   display:block;
   position:fixed;
   overflow:hidden;
   z-index:100;
   box-shadow: 0px 0px 10px black;
-  padding:5px 17px 5px 17px;
-  border-bottom:1px solid black;
+  padding:4px 17px 4px 17px;
+  border:0.1px solid black;
   background:var(--darkbg);
   
   opacity:0;
@@ -50,7 +51,7 @@ nav li a{
 	padding:8px 15px 8px 15px;
 	text-decoration:none;
 	}
-nav li a:hover, a:active, a:focus{
+nav li a:hover, nav li a:active, nav li a:focus{
     display:flex;
     cursor:pointer;
 	color: white;
@@ -364,18 +365,6 @@ input[type="submit"]{
 input[type="submit"]:hover{
   border:2px solid red;
   }
-  
-.up-arrow img{
-  width:40px;
-  height:45px;
-  position:fixed;
-  right:5px;
-  bottom:20px;
-  animation: up-arrow 2s ease infinite;
-  -webkit-animation:up-arrow 2s ease infinite;
-  animation-delay:15s;
-  opacity:0;
-  }
  
 .socialmedia{
   display:flex;
@@ -420,4 +409,15 @@ footer p{
   text-align:center;
   color:gray;
   }
-
+  
+.up-arrow img{
+  width:35px;
+  height:42.5px;
+  position:fixed;
+  right:5px;
+  bottom:20px;
+  animation: up-arrow 2s ease infinite;
+  -webkit-animation:up-arrow 2s ease infinite;
+  animation-delay:10s;
+  opacity:0;
+  }
