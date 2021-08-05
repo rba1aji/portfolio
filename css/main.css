@@ -17,7 +17,7 @@ body{
   background:var(--bg);
   padding:0;
   margin:0;
-  font-family:Arial;
+   font-family: Arial, Helvetica, sans-serif;
   }
 nav ol{
   width:100vw;
@@ -25,9 +25,9 @@ nav ol{
   position:fixed;
   overflow:hidden;
   z-index:100;
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 0px 0px 10px  #262626;
   padding:4px 17px 4px 17px;
-  border:0.1px solid black;
+  /*border-bottom:0.5px solid  black;*/
   background:var(--darkbg);
   
   opacity:0;
@@ -44,7 +44,7 @@ nav li{
 	text-shadow: black 0px 3px 3px;
   }
 nav li a{
-    font-family:Arial;
+     font-family: Arial, Helvetica, sans-serif;
 	font-size:20.05px;
 	color:white;
 	font-weight:750;
@@ -93,13 +93,18 @@ h3{
   text-shadow:0 0 .125em hsl(0 0% 100% /0.3), 0 0 .45em currentColor;
   }
 h4{
-  font-family: 'dancing_script',cursive;
+  font-family: 'dancing_script', cursive;
+  font-weight:thin;
   font-size:30px;
   color:teal;
-  margin:5px 30px 0 35px;
+  margin:15px 30px 0 35px;
   opacity:0;
+  border:2px solid teal;
+  padding:1.5px 15px 2.5px 15px;
+  width:max-content;
   animation:nav 0.5s linear forwards;
-  animation-delay:7s;
+  animation-delay:6s;
+  border-radius:0 10px 0 10px;
   }
 h2:hover,h3:hover,h1:hover,#hi:hover{
     cursor:pointer;
@@ -109,7 +114,7 @@ h2:hover,h3:hover,h1:hover,#hi:hover{
 p{
 	margin:20px 20px 10px 20px;
 	font-size:20px;
-	font-family:Arial;
+	 font-family: Arial, Helvetica, sans-serif;
 	color:white;
 	text-align: justify;
 	line-height:30px;
@@ -117,7 +122,7 @@ p{
 	font-weight:475;
  }
 header{
-  padding-top:27vh;
+  padding-top:30.5vh;
   margin:auto;
   min-height:100vh;
   width:100vw;
@@ -338,7 +343,7 @@ form div{
   padding:8px 20px;
   }
 input[type="text"],input[type="email"],textarea{
-  font-family:Arial;
+   font-family: Arial, Helvetica, sans-serif;
   width:100%;
   border:2px solid transparent;
   background: transparent;
@@ -346,7 +351,7 @@ input[type="text"],input[type="email"],textarea{
   color:white;
   font-weight:425;
   font-size:18px;
-  padding:1px;
+  padding:0.5px;
   }
 label{
   color:white;
@@ -424,4 +429,31 @@ footer p{
   }
 .up-arrow img:hover{
   border:gray 0.5px dotted;
+  }
+  
+div.open-tag{
+  position: absolute;
+  top:3.5vh;
+  left:5px;
+  font-size:200px;
+  font-family: "Times New Roman", Times, serif;
+  z-index:-100;
+  color:teal;
+  font-weight:950;
+  opacity:35%;
+  transform:rotate(5deg);
+  animation:tag 5s linear both infinite;
+  }
+div.close-tag{
+  position: absolute;
+  top:62.5vh;
+  right:7.5px;
+  font-size:200px;
+  font-family: "Times New Roman", Times, serif;
+  z-index:-100;
+  color:teal;
+  font-weight:910;
+  opacity:30%;
+  transform:rotate(6deg);
+  animation:tag 5s linear both infinite;
   }

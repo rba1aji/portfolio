@@ -62,3 +62,8 @@
     50%{bottom:25px; opacity:90%;}
     100%{bottom:18px; opacity:90%;}
     }
+ @keyframes tag{
+    0%{transform:rotate(7deg);}
+    50%{transform:rotate(0deg);}
+    100%{transform:rotate(7deg);}
+    }
