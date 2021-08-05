@@ -457,3 +457,31 @@ div.close-tag{
   transform:rotate(6deg);
   animation:tag 5s linear both infinite;
   }
+  
+#loader {
+  top:40vh;
+  left:45vw;
+  position: absolute;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
