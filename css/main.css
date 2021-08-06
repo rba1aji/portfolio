@@ -4,6 +4,7 @@
   /*--bwhite:#f2f2f2;*/
   --darkbg:#0d0d0d;
   --bteal:#00DCDC;
+  --h2-clr:#00dcdc;
   }
 *{
   margin:0; 
@@ -20,99 +21,63 @@ body{
   margin:0;
    font-family: Arial, Helvetica, sans-serif;
   }
-nav ol{
-  width:100vw;
-  display:block;
-  position:fixed;
-  overflow:hidden;
-  z-index:100;
-  box-shadow: 0px 0px 10px  #262626;
-  padding:4px 17px 4px 17px;
-  /*border-bottom:0.5px solid  black;*/
-  background:var(--darkbg);
-  
-  opacity:0;
-  -webkit-animation:nav 0.5s linear forwards;
-  animation:nav 0.5s linear forwards;
-  animation-delay:4.5s;
-  }
-  
-nav li{
-    display:flex;
-	float:left;
-	list-style-type: none;
-	width:25%;
-	text-shadow: black 0px 3px 3px;
-  }
-nav li a{
-     font-family: Arial, Helvetica, sans-serif;
-	font-size:20.05px;
-	color:white;
-	font-weight:750;
-	background:var(--darkbg);
-	padding:8px 15px 8px 15px;
-	text-decoration:none;
-	}
-nav li a:hover, nav li a:active, nav li a:focus{
-    display:flex;
-    cursor:pointer;
-	color: white;
-	border: 3px solid var(--bteal);
-	padding:4px 11px 4px 10px;
-	border-radius:5px;
-	width:55%;
-	}
-h1{  
-  font-size:55px;
-  font-weight:550;
+
+h1{
+  font-family: 'nimbus';
+  font-size:50px;
   text-align:left;
-  line-height:70px;
   color:var(--bwhite);
-  text-shadow: black 0px 3px 3px;
+  line-height:55px;;
   }
 h2{
   -webkit-font-weight:900;
   font-family: 'nimbus', sans-serif;
-  color:var(--bteal);
   font-size:45px;
   text-align:center; 
   letter-spacing:1px;
-  text-shadow: black 0px 3px 3px;
+  
+  
+  color:var(--h2-clr);
+  /*text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);*/
+  
   text-shadow:0 0 .125em hsl(0 0% 100% /0.3), 0 0 .45em currentColor;
   opacity:1000%;
 	}
 
 h3{
- /* font-family: 'Otomanopee One', sans-serif; */
   position: static;
   font-family:'nimbus';
   font-size:30px;
-  text-shadow: black 0px 3px 3px;
   text-align:center;
-  margin:15px 0;
-  color:var(--bteal);
+  padding:15px 0;
   letter-spacing:0.5px;
-  text-shadow:0 0 .125em hsl(0 0% 100% /0.3), 0 0 .45em currentColor;
+  
+  /*text-shadow: black 0px 3px 3px;*/
+  /*text-shadow:0 0 .125em hsl(0 0% 100% /0.3), 0 0 .45em currentColor;*/
+  background: linear-gradient(to right,  #b12161, #a750a7, #00dcdc);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
   }
-h4{
+h4.resume{
   font-family: 'dancing_script', cursive;
   font-weight:thin;
-  font-size:30px;
-  color:teal;
-  margin:15px 30px 0 35px;
-  opacity:0;
-  border:2px solid teal;
-  padding:1.5px 15px 2.5px 15px;
+  font-size:25px;
+  margin:45px 30px 0 5px;
+  /*border:1.5px solid #3be6ca;*/
+  border-radius:0 10px 0 10px;
+  padding:3px 30px 5px 30px;
   width:max-content;
+  
   animation:nav 0.5s linear forwards;
   animation-delay:6s;
-  border-radius:0 10px 0 10px;
+  opacity:0;
+  
+  color: var(--bteal); 
+  border-width: 1.25px;
+  border-style: solid;
+  border-color: teal;
   }
-h2:hover,h3:hover,h1:hover,#hi:hover{
-    cursor:pointer;
-    animation:h2hover 0.5s ease backwards;
-    animation-iteration-count:1;
-	}
+
 p{
 	margin:20px 20px 10px 20px;
 	font-size:20px;
@@ -124,30 +89,29 @@ p{
 	font-weight:475;
  }
 header{
-  padding-top:30.5vh;
-  margin:auto;
+  padding-top:30vh;
+  padding-left:30px;
   min-height:100vh;
   width:100vw;
   display:block;
   }  
-
+h1::nth-letter(1){
+  color:blue;
+  }
 #hi{
-  font-family: 'nimbus';
-  margin-left:30px;
+  font-size:47px;
   position: relative;
-  line-height:55px;
   letter-spacing:-1px;
   animation: effect1 1s ease forwards;
   animation-iteration-count:1;
-  animation-delay:0.15s;
-  z-index:5;
+  animation-delay:0s;
+  width:max-content;
   }
 #Im{
-  font-family: 'nimbus';
-  margin:0;
-  padding:0 0 0 30px;
   position: relative;
   letter-spacing:-1px;
+  font-size:50px;
+  width:max-content;
   }
 #Im::before,
 #Im::after{
@@ -161,22 +125,15 @@ header{
 #Im::before{
   background:var(--bg);
   -webkit-animation:effect2 2s steps(11) forwards;
-  animation: effect2 2s steps(24) forwards;
-  animation-delay:1.2s;
+  animation: effect2 1.25s steps(24) forwards;
+  animation-delay:1.15s;
   }
  
 #position{
-  font-weight:550;
   font-size:45px;
-  font-family: 'nimbus';
-  color:var(--bwhite);
-  margin:0;
-  top:0;
-  width:max-content;
   position: relative;
-  padding:0 0 0 30px;
-  letter-spacing:-1px;
-  text-shadow: black 0px 3px 3px;
+  letter-spacing:-.6px;
+  width:max-content;
 	}
 #position::before,
 #position::after{
@@ -192,26 +149,22 @@ header{
   animation:effect3 2s steps(26) forwards;
   animation-delay:2.3s;
   }
-#position:hover{
-  color:var(--bteal);
-  }
 
 #comma{
   animation:comma 0s ease forwards;
-  animation-delay:1.1s;
+  animation-delay:0.8s;
   opacity:0;
 }  
 
 #B{
   font-size:65px;
-  margin-left:3px;
+  padding-left:3px;
   color:crimson;
-  text-shadow:-6px -1.5px 0.2px  #00AEAE, black 0px 3px 3px;
+  text-shadow:-6px -2.5px 0.2px  #00AEAE, black 0px 3px 3px;
 }
 
 #o{
   opacity:0;
-  font-size:45px;
   -webkit-animation:effecto 1s linear forwards;
   animation: effecto 0.75s ease forwards;
   animation-delay:4.5s;
@@ -295,30 +248,7 @@ header{
     left:50%;
     transform:translate(-50%,-50%)
     }
-.container:hover img{ 
-    opacity:0.25;
-    }
-.container:hover .middle{
-    opacity:100%;
-    z-index:1;
-    }
-    .text{
-        
-      }
-     .text a{
-        background:crimson;
-        padding:5px 8px;
-        border-radius:5px;
-        font-size:18px;
-        text-decoration:none;
-        color:white;
-        font-weight:800;
-        }
-       .text a:hover{
-         background:gray;
-         padding:5px 8px;
-         border-radius:5px;
-         }
+
 
 .contact{
   position:static;
@@ -370,9 +300,7 @@ input[type="submit"]{
   background:var(--darkbg);
   color:white;
   }
-input[type="submit"]:hover{
-  border:2px solid red;
-  }
+
  
 .socialmedia{
   display:flex;
@@ -422,15 +350,13 @@ footer p{
   width:35px;
   height:42.5px;
   position:fixed;
-  right:5px;
-  bottom:20px;
+  float:right;
+  right:7px;
   animation: up-arrow 2s ease infinite;
   -webkit-animation:up-arrow 2s ease infinite;
   animation-delay:10s;
   opacity:0;
-  }
-.up-arrow img:hover{
-  border:gray 0.5px dotted;
+  z-index:1;
   }
   
 div.open-tag{
@@ -488,3 +414,8 @@ div.close-tag{
   animation-duration: 1s;
 }
 
+.z:hover{
+  color:teal;
+  text-shadow:none;
+  }
+  
