@@ -114,12 +114,12 @@
     }
 @keyframes tag{
     0%{transform:rotate(7deg);}
-    50%{transform:rotate(0deg);}
+    50%{transform:rotate(-1deg); opacity:50%;}
     100%{transform:rotate(7deg);}
     }
   @-webkit-keyframes tag{
     0%{transform:rotate(7deg);}
-    50%{transform:rotate(0deg);}
+    50%{transform:rotate(-1deg); opacity:50%;}
     100%{transform:rotate(7deg);}
     }
     
