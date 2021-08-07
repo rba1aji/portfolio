@@ -4,8 +4,9 @@ body{
 .sphere p{
 	color:white;
 	font-family:Arial;
-	font-weight:450;
+	font-weight:400;
 	text-align:center;
+	text-shadow:0 0 2px black;
 	}
 .sphere {
   position: fixed;
@@ -16,8 +17,8 @@ body{
   margin: auto;
   height: 300px;
   width: 300px;
-  -webkit-animation: rotateSphere 10s linear infinite;
-          animation: rotateSphere 10s linear infinite;
+  -webkit-animation: rotateSphere 15s linear infinite;
+          animation: rotateSphere 15s linear infinite;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
           

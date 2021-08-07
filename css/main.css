@@ -16,10 +16,13 @@ html {
   loading:lazy;
 }
 body{
-  background:var(--bg);
+  background: var(--bg);
   padding:0;
   margin:0;
    font-family: Arial, Helvetica, sans-serif;
+   
+   overflow-x:hidden;
+   clip-path: inset( -100vh 0vw -100vh 0vw);
   }
 
 h1{
@@ -27,7 +30,7 @@ h1{
   font-size:50px;
   text-align:left;
   color:var(--bwhite);
-  line-height:55px;;
+  text-shadow:0 0px 3px black;
   }
 h2{
   -webkit-font-weight:900;
@@ -58,25 +61,7 @@ h3{
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   }
-h4.resume{
-  font-family: 'dancing_script', cursive;
-  font-weight:thin;
-  font-size:25px;
-  margin:45px 30px 0 5px;
-  /*border:1.5px solid #3be6ca;*/
-  border-radius:0 10px 0 10px;
-  padding:3px 30px 5px 30px;
-  width:max-content;
-  
-  animation:nav 0.5s linear forwards;
-  animation-delay:6s;
-  opacity:0;
-  
-  color: var(--bteal); 
-  border-width: 1.25px;
-  border-style: solid;
-  border-color: teal;
-  }
+
 
 p{
 	margin:20px 20px 10px 20px;
@@ -90,29 +75,72 @@ p{
  }
 header{
   padding-top:30vh;
-  padding-left:30px;
   min-height:100vh;
   width:100vw;
   display:block;
   }  
-h1::nth-letter(1){
-  color:blue;
+.header h1{
+  color:white;
+  position: absolute;
+  background: transparent;
+  float:left;
   }
 #hi{
-  font-size:47px;
-  position: relative;
+  padding-left:7.5vw;
+  font-size:12.5vw;  /*47px*/
+  width:max-content;
   letter-spacing:-1px;
   animation: effect1 1s ease forwards;
   animation-iteration-count:1;
-  animation-delay:0s;
-  width:max-content;
+  animation-delay:0.25s;
   }
 #Im{
-  position: relative;
+  padding:48px 0 0 7.5vw;
   letter-spacing:-1px;
-  font-size:50px;
+  font-size:13vw;
   width:max-content;
+  overflow:hidden;
+  opacity:0;
+  animation:typing 2s steps(24, end) forwards;
+  animation-delay:1.2s; 
   }
+  
+#position{
+  padding:100px 0 0 8vw;
+  font-size:11.5vw; /*45px*/
+  overflow:hidden;
+  letter-spacing:-.6px;
+  
+  width:max-content;
+  opacity:0;
+  animation:typing 2s steps(26, end) forwards;
+  animation-delay:2.5s;
+	}
+  
+h4.resume{
+  position: absolute;
+  font-family: 'dancing_script', cursive;
+  font-weight:thin;
+  font-size:6.5vw; /*25px*/
+  
+  margin:27.5vh 0 0 8.5vw;
+  padding:3px 30px 5px 30px;
+  width:max-content;
+  
+  animation:nav 0.5s linear forwards;
+  animation-delay:6s;
+  opacity:0;
+  
+  color: var(--bteal); 
+  border-width: 1.25px;
+  border-style: solid;
+  border-color: teal;
+   /*border:1.5px solid #3be6ca;*/
+  border-radius:0 10px 0 10px;
+  }
+  
+  
+/**
 #Im::before,
 #Im::after{
   content:"";
@@ -128,13 +156,9 @@ h1::nth-letter(1){
   animation: effect2 1.25s steps(24) forwards;
   animation-delay:1.15s;
   }
+**/
  
-#position{
-  font-size:45px;
-  position: relative;
-  letter-spacing:-.6px;
-  width:max-content;
-	}
+/**
 #position::before,
 #position::after{
   content:"";
@@ -149,6 +173,9 @@ h1::nth-letter(1){
   animation:effect3 2s steps(26) forwards;
   animation-delay:2.3s;
   }
+**/
+
+
 h1#position::first-letter{
   font-size:50px;
   }
@@ -160,8 +187,9 @@ h1#position::first-letter{
 }  
 
 #B{
-  font-size:65px;
-  padding-left:3px;
+  font-size:16vw;
+  padding-left:3.5px;
+  /*padding-top:50px;*/
   color:crimson;
   text-shadow:-6px -2.5px 0.2px  #00AEAE, black 0px 3px 3px;
 }
@@ -170,7 +198,7 @@ h1#position::first-letter{
   opacity:0;
   -webkit-animation:effecto 1s linear forwards;
   animation: effecto 0.75s ease forwards;
-  animation-delay:4.5s;
+  animation-delay:5s;
   z-index:100;
   }
 
@@ -362,32 +390,44 @@ footer p{
   z-index:1;
   }
   
-div.open-tag{
-  position: absolute;
-  top:3.5vh;
-  left:5px;
-  font-size:200px;
+div.tag{
+  background:var(--bg);
+  font-size:150vw;
   font-family: "Times New Roman", Times, serif;
   z-index:-100;
   color:var(--bteal);
   font-weight:950;
-  opacity:35%;
-  transform:rotate(5deg);
-  animation:tag 5s linear both infinite;
+  opacity:25%;
+  animation:ta 5s linear both infinite;
+  animation-delay:18s;
+  overflow-x:hidden;
+  clip-path: inset( -100vh 0vw -100vh 0vw);
   }
+div.open-tag{
+  position: absolute;
+  top:-5vh;
+  float:left;
+  margin-left:-30vw;
+  overflow-x:hidden;
+  }
+  
 div.close-tag{
   position: absolute;
-  top:62.5vh;
-  right:7.5px;
-  font-size:200px;
-  font-family: "Times New Roman", Times, serif;
-  z-index:-100;
-  color:var(--bteal);
-  font-weight:910;
-  opacity:30%;
-  transform:rotate(6deg);
-  animation:tag 5s linear both infinite;
-  animation-delay:-5s;
+  top:18vh;
+  float:left;
+  left:40vw;
+  overflow-x:hidden;
+  /*clip-path: inset( -100vh 25vw -100vh 0vw);*/
+  }
+.bg-tag-iframe {
+  position: absolute;
+  border:none;
+  width:100vw;
+  min-height:80vh;
+  z-index:-500;
+  overflow:hidden;
+  display:cover;
+  background:var(--bg);
   }
   
 #loader {
@@ -421,4 +461,3 @@ div.close-tag{
   color:teal;
   text-shadow:none;
   }
-  
