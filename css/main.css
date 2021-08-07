@@ -434,7 +434,8 @@ div.close-tag{
   overflow-y:hidden;
   /*clip-path: inset( -100vh 25vw -100vh 0vw);*/
   }
-.bg-tag-iframe {
+
+/*.bg-tag-iframe {
   position: absolute;
   top:-5vh;
   border:none;
