@@ -20,10 +20,10 @@ body{
   margin:0;
    font-family: Arial, Helvetica, sans-serif;
    
-   overflow-x:hidden;
-   clip-path: inset( -100vh 0vw -100vh 0vw);
+   /*overflow-x:hidden;
+   clip-path: inset( -100vh 0vw -100vh 0vw);*/
+   
       background-image: linear-gradient(to right bottom, #212529, #1d1f23, #19191c, #151316, #0e0c0e, #0e0c0e, #0e0c0e, #0e0c0e, #151316, #19191c, #1d1f23, #212529);
-      background-attachment:fixed;
   }
 
 h1{
@@ -49,7 +49,9 @@ h2{
   
 .about h2, .works h2, .contact h3{
   /*  teal  */
-  background: linear-gradient(to left, teal, #085F63, #4CA1A3, #00C1D4, #00B4D8, #00AEAE, #00DCDC, #0BFFFF, #66FFFF, #67EDED, #9CECEC);
+  /*background: linear-gradient(to left, teal, #085F63, #4CA1A3, #00C1D4, #00B4D8, #00AEAE, #00DCDC, #0BFFFF, #66FFFF, #67EDED, #9CECEC);*/
+  
+  background: linear-gradient(to right, teal, #008080ff, #1A9292ff, #34A4A4ff, #4EB6B6ff, #68C8C8ff, #82DADAff, #9CECECff);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 	}
@@ -432,10 +434,10 @@ div.close-tag{
   left:44vw;
   overflow-x:hidden;
   overflow-y:hidden;
-  /*clip-path: inset( -100vh 25vw -100vh 0vw);*/
+  /*clip-path: inset( -100vh 25vw -100vh 0vw);
   }
 
-/*.bg-tag-iframe {
+.bg-tag-iframe {
   position: absolute;
   top:-5vh;
   border:none;
@@ -447,7 +449,7 @@ div.close-tag{
   display:cover;
   background:var(--bg);
   }
-  */
+*/
   
 #loader {
   top:40vh;

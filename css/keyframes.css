@@ -121,17 +121,8 @@
     50%{bottom:25px; opacity:90%;}
     100%{bottom:18px; opacity:90%;}
     }
-@keyframes tag{
-    0%{transform:rotate(0deg);}
-    50%{transform:rotate(7deg);}
-    100%{transform:rotate(0deg);}
-    }
-  @-webkit-keyframes tag{
-    0%{transform:rotate(7deg);}
-    50%{transform:rotate(-1deg); opacity:50%;}
-    100%{transform:rotate(7deg);}
-    }
     
+/*
     
    /*LOADER*/ 
 
@@ -153,27 +144,12 @@
     to{ opacity:1; }
 }
 
-@keyframes flicker {
-    
-  0%, 18%, 22%, 25%, 53%, 57%, 100% {
-
-      text-shadow:
-      0 0 4px #fff,
-      0 0 11px #fff,
-      0 0 19px #fff,
-      0 0 40px #0fa,
-      0 0 80px #0fa,
-      0 0 90px #0fa,
-      0 0 100px #0fa,
-      0 0 150px #0fa;
-  
-  }
-    20%, 24%, 55% {        
-      text-shadow: none;
-  }    
-}
 
 @keyframes typing{
+  from{width:0; opacity:1;}
+  to{width:100%; opacity:1;}
+  }
+  @-webkit-keyframes typing{
   from{width:0; opacity:1;}
   to{width:100%; opacity:1;}
   }
