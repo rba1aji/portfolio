@@ -35,3 +35,15 @@ input[type="submit"]:hover{
 .up-arrow img:hover{
   border:gray 0.5px dotted;
   }
+  
+.contact h2 .z:hover, .skills h2 .z:hover, .location h3 .z:hover{
+  background: linear-gradient(to right, teal, #00dcdc);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  }
+  
+.about h2 .z:hover, .works h2 .z:hover, .contact h3 .z:hover{
+  background: linear-gradient(to right, #F17063, #D9376D);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  }
