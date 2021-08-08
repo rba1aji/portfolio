@@ -112,7 +112,7 @@ header{
   animation-delay:0s;
   }
 #Im{
-  padding:6vh 0 0 7.5vw;
+  padding:6.2vh 0 0 7.5vw;
   letter-spacing:-1px;
   font-size:6.7vh; /*50px*//*13vw*/
   width:max-content;
@@ -123,7 +123,7 @@ header{
   }
   
 #position{
-  padding:12.5vh 0 0 8vw;
+  padding:12.7vh 0 0 8vw;
   font-size:5.9vh; /*11.5vw*//*45px*/
   overflow:hidden;
   letter-spacing:-.6px;
@@ -205,7 +205,7 @@ h1#position::first-letter{
 }  
 
 #B{
-  font-size:16vw;
+  font-size:8.3vh;  /*16vw*/
   padding-left:3.5px;
   /*padding-top:50px;*/
   color:#D92027;
