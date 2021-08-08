@@ -123,11 +123,10 @@ header{
   }
   
 #position{
-  padding:12.7vh 0 0 8vw;
+  padding:12.5vh 0 0 7.7vw;
   font-size:5.9vh; /*11.5vw*//*45px*/
   overflow:hidden;
   letter-spacing:-.6px;
-  
   width:max-content;
   opacity:0;
   animation:typing 2s steps(26) forwards;
@@ -216,7 +215,7 @@ h1#position::first-letter{
 #o{
   opacity:0;
   -webkit-animation:effecto 1s linear forwards;
-  animation: effecto 0.75s ease forwards;
+  animation: effecto .7s steps(16, end) forwards;
   animation-delay:5s;
   z-index:100;
   }
