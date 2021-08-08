@@ -55,48 +55,48 @@
     
    }
 @keyframes effecto{
-    0%{font-size:11vw; opacity:0;}
+    0%{font-size:5vh; opacity:0;}
     1%{
        position: relative;
        right:-100px; opacity:100%;
-       font-size:11.5vw; opacity:0;}
+       font-size:5.2vh; opacity:0;}
     25%{
        position: relative; 
        right:-70px; bottom:35px;   
-       opacity:100%; font-size:11.75vw;}
+       opacity:100%; font-size:5.6vh;}
     50%{
         position: relative; 
         right:-50px; bottom:20px; 
-        opacity:100%; font-size:12.5vw;}
+        opacity:100%; font-size:5.8vh;}
     75%{
         position: relative; 
-        right:-10px; bottom:35px; 
-        opacity:100%; font-size:12vw;
+        right:-10px; bottom:32px; 
+        opacity:100%; font-size:6.1vh;
         }
     100%{
-        opacity:100%; font-size:11.5vw;}
+        opacity:100%; font-size:5.9vh;}
   }
   @-webkit-keyframes effecto{
-    0%{font-size:45px; opacity:0;}
+   0%{font-size:5vh; opacity:0;}
     1%{
        position: relative;
        right:-100px; opacity:100%;
-       font-size:45px; opacity:0;}
+       font-size:5.2vh; opacity:0;}
     25%{
        position: relative; 
        right:-70px; bottom:35px;   
-       opacity:100%; font-size:45px;}
+       opacity:100%; font-size:5.6vh;}
     50%{
         position: relative; 
         right:-50px; bottom:20px; 
-        opacity:100%; font-size:50px;}
+        opacity:100%; font-size:5.8vh;}
     75%{
         position: relative; 
-        right:-10px; bottom:35px; 
-        opacity:100%; font-size:50px;
+        right:-10px; bottom:32px; 
+        opacity:100%; font-size:6.1vh;
         }
     100%{
-        opacity:100%; font-size:45px;}
+        opacity:100%; font-size:5.9vh;}
   }
 /*
 @keyframes lightning {
