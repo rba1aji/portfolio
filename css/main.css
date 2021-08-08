@@ -32,8 +32,10 @@ h1{
   text-align:left;
   color:var(--bwhite);
   text-shadow:0 0px 3px black;
+  font-weight:normal;
   }
 h2{
+  font-weight:900;
   -webkit-font-weight:900;
   font-family: 'nimbus', sans-serif;
   font-size:45px;
@@ -133,8 +135,8 @@ header{
 h4.resume{
   position: absolute;
   font-family: 'dancing_script', cursive;
-  font-weight:thin;
-  font-size:6.5vw; /*25px*/
+  font-weight:normal;
+  font-size:25px;
   
   margin:27.5vh 0 0 8.5vw;
   padding:3px 30px 5px 30px;
@@ -146,10 +148,11 @@ h4.resume{
   
    /*border:1.5px solid #3be6ca;*/
   border-radius:0 12px 0 12px;
-  border:solid #0BFFFF;
-  background: linear-gradient(to right, #0BFFFF, #00dcdc);
+  border:1.25px solid #0BFFFF;
+  color:#00dcdc;
+  /*background: linear-gradient(to right, #0BFFFF, #00dcdc);
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  -webkit-background-clip: text;*/
   }
   
   
@@ -477,4 +480,7 @@ div.close-tag{
   animation-name: animatebottom;
   animation-duration: 1s;
 }
+h1::nth-letter(odd){
+  color:red;
+  }
 
