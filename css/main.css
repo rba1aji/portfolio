@@ -123,7 +123,8 @@ header{
   }
   
 #position{
-  padding:12.5vh 0 0 7.7vw;
+  position: absolute;
+  padding:12.5vh 0 0 7.7vw; /*12.5vh*/
   font-size:5.9vh; /*11.5vw*//*45px*/
   overflow:hidden;
   letter-spacing:-.6px;
