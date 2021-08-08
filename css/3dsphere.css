@@ -17,8 +17,8 @@ body{
   margin: auto;
   height: 300px;
   width: 300px;
-  -webkit-animation: rotateSphere 15s linear infinite;
-          animation: rotateSphere 15s linear infinite;
+  -webkit-animation: rotateSphere 11s linear infinite;
+          animation: rotateSphere 11s linear infinite;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
           
