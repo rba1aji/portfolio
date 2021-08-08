@@ -123,6 +123,7 @@ header{
   }
   
 #position{
+  z-index:-1;
   position: absolute;
   padding:12.5vh 0 0 7.7vw; /*12.5vh*/
   font-size:5.9vh; /*11.5vw*//*45px*/
@@ -216,9 +217,8 @@ h1#position::first-letter{
 #o{
   opacity:0;
   -webkit-animation:effecto 1s linear forwards;
-  animation: effecto .7s steps(16, end) forwards;
+  animation: effecto .67s steps(16, end) forwards;
   animation-delay:5s;
-  z-index:100;
   }
 
 /*
@@ -482,7 +482,7 @@ div.close-tag{
   animation-name: animatebottom;
   animation-duration: 1s;
 }
-h1::nth-letter(odd){
+/*h1::nth-letter(odd){
   color:red;
-  }
+  }*/
 
