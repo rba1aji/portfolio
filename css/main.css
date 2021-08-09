@@ -24,6 +24,7 @@ body{
    clip-path: inset( -100vh 0vw -100vh 0vw);*/
    
       background-image: linear-gradient(to right bottom, #212529, #1d1f23, #19191c, #151316, #0e0c0e, #0e0c0e, #0e0c0e, #0e0c0e, #151316, #19191c, #1d1f23, #212529);
+      background-color:black;
     
   }
 
@@ -185,6 +186,7 @@ h4.resume{
 */
 
 h2{
+  cursor:pointer;
   font-weight: 600;
   /*-o-font-weight:900;
   -moz-font-weight:900;
@@ -263,6 +265,7 @@ p{
 	display:block;
 	}
 .skills iframe{
+  font-family: 'Atkinson Hyperlegible', sans-serif;
     background:#1a1a1a;
 	display:flex;
 	margin:40px auto auto auto;
@@ -280,11 +283,11 @@ p{
   display:block;
   }
 .works img{
-  width:150px;
-  height:150px;
+  width:145px;
+  height:140px;
   border-radius:15px;
   display:block;
-  margin:50px auto 75px auto;
+  margin:30px auto 60px auto;
   align-items:center;
   box-shadow: 0 4px 8px 0 #1a1a1a, 0 6px 20px 0 #1a1a1a;
   opacity:1;
