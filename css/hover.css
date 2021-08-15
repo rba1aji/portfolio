@@ -47,3 +47,8 @@ input[type="submit"]:hover{
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   }
+  
+.about p a:link, a:visited, a:hover, a:active{
+  color:white;
+  text-decoration:none;
+  }
