@@ -1,4 +1,8 @@
-
+#dsa{
+  transform: rotateY(120deg);
+  transform:translateX(5deg);
+/*  transform-style: preserve-3d;*/
+  }
 .sphere p{
    color:#eefcfc;
   font-family: 'Atkinson Hyperlegible', sans-serif;
