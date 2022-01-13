@@ -61,13 +61,13 @@
   width: calc(20% - 10px);
 }
 .bar.basic::before{
-  width: calc(40% - 10px);
+  width: calc(60% - 10px);
 }
 .bar.intermediate::before{
-  width: calc(70% - 10px);
+  width: calc(45% - 10px);
 }
 .bar.advanced::before{
-  width: calc(80% - 10px);
+  width: calc(70% - 10px);
 }
 .bar.expert::before{
   width: calc(100% - 10px);

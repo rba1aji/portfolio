@@ -27,7 +27,11 @@ body{
       background-color:black;
     
   }
-
+@media only screen and (min-width: 768px) {
+			h1{
+			font-size:150px;
+}
+}
 h1{
   font-family: 'coolvetica';
   font-size:50px;
@@ -59,6 +63,7 @@ h1.header{
   
     line-height:45px;
   }
+
 #Im{
   padding:0px 0 0 7.5vw;
   width:max-content;
@@ -71,6 +76,7 @@ h1.header{
   }
   
 #position{
+  font-size:48px;
   padding:0 0 0 7.5vw;
   overflow:hidden;
   width:max-content;
@@ -78,7 +84,7 @@ h1.header{
   animation:typing 2s steps(26) forwards;
   animation-delay:2.5s;
   
-   line-height:48px;
+   line-height:50px;
 	}
 
 h4.resume{
@@ -186,7 +192,7 @@ h4.resume{
 */
 
 h2{
-  cursor:pointer;
+  /*cursor:pointer;*/
   font-weight: 600;
   /*-o-font-weight:900;
   -moz-font-weight:900;
@@ -282,12 +288,38 @@ p{
   width:100vw;
   display:block;
   }
+.flex2by2{
+    display:flex;
+    margin:0;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+  .flex2by2 > div{
+    display: flex; 
+  flex-basis: calc(50% - 50px);  
+  justify-content: center;
+  flex-direction: column;
+    }
+    .flex2by2 > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+ 
+  
+  /*@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}*/
 .works img{
-  width:145px;
-  height:140px;
-  border-radius:15px;
-  display:block;
-  margin:30px auto 60px auto;
+  width:132px;
+  height:135px;
+  border-radius:12.5px;
+  display:flex;
+/*  margin:30px auto 60px auto; */
+ /*margin:0 10px 0 10px; */
   align-items:center;
   box-shadow: 0 4px 8px 0 #1a1a1a, 0 6px 20px 0 #1a1a1a;
   opacity:1;
