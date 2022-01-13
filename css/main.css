@@ -297,7 +297,7 @@ p{
   }
   .flex2by2 > div{
     display: flex; 
-  flex-basis: calc(50% - 50px);  
+  flex-basis: calc(50% - 15.5vw);  
   justify-content: center;
   flex-direction: column;
     }
