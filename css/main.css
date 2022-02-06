@@ -307,8 +307,8 @@ p{
   flex-direction: row;
 }
  
-  
-  /*@media (max-width: 800px) {
+/*  
+  @media (max-width: 800px) {
   .flex-container {
     flex-direction: column;
   }
@@ -359,6 +359,12 @@ form{
   margin:25px 50px 35px 50px;
   position: relative;
   }
+  @media (max-width: 800px) {
+  form{
+    margin:50px 100px 50px 100px;
+  }
+}
+
 form div{
   background:var(--darkbg);
   margin:10px 0 20px 0;
