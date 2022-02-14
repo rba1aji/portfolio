@@ -359,11 +359,11 @@ form{
   margin:25px 50px 35px 50px;
   position: relative;
   }
-  @media (max-width: 800px) {
+  /*@media (max-width: 800px) {
   form{
     margin:500px 1000px 500px 1000px;
   }
-}
+}*/
 
 form div{
   background:var(--darkbg);
