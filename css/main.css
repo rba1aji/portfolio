@@ -10,9 +10,10 @@
   padding:0;
   box-sizing:border-box;
 }
-html {
+html {  
+  font-size:62.5%;
   scroll-behavior: smooth;
-  loading:lazy;
+  /*loading:lazy;*/
 }
 body{
   /*background: var(--bg);*/
