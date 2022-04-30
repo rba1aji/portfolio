@@ -28,6 +28,10 @@ body{
       background-color:black;
     
   }
+ a{
+target-name:new;
+target-new:tab;
+}
 @media only screen and (min-width: 768px) {
 			h1{
 			font-size:150px;
@@ -178,7 +182,7 @@ h4.resume{
   animation-delay:5s;
   }*/
   
-/*
+
 .lightning img{
   position:static;
   }
@@ -187,10 +191,10 @@ h4.resume{
   animation: lightning 9s infinite;
   -webkit-animation-delay:4.9s;
   animation-delay:4.9s;
-  opacity:0;
+  opacity:1;
   animation-iteration-count:0;
   }
-*/
+
 
 h2{
   /*cursor:pointer;*/
@@ -264,9 +268,15 @@ p{
 	min-height:100vh;
 	width:100vw;
 	}
+@media (min-width: 900px) {
+  .about .content{
+    padding:0 5%;
+  }
+}
 
 .skills{
 	position: static;
+	display:block;
 	min-height:100vh;
 	width:100vw;
 	display:block;
@@ -283,6 +293,14 @@ p{
 	border:1px solid var(--darkbg);
     border-radius:50%;
 	}
+@media (min-width: 900px) {
+  div.container{
+      width:47.5%;
+      display:block;
+    }
+}
+	
+	
 .works{
   position:static;
   min-height:100vh;
@@ -386,12 +404,18 @@ label{
 input[type="submit"]{
   font-size:20px;
   float:right;
-  Margin-right:0px;
+  margin-right:0px;
   border:2px solid crimson;
   padding:7px 25px;
   background:var(--darkbg);
   color:white;
   }
+
+@media (min-width: 900px) {
+  form{
+    margin:25px 25% 35px 25%;
+  }
+}
 
  
 .socialmedia{
@@ -407,7 +431,7 @@ input[type="submit"]{
   Margin:0 15px;
   }
 div.location h3{
-  padding:0 0 15px 0;
+  padding:0 0 7.5% 0;
   letter-spacing:4px;
   }
 div.location iframe{
@@ -423,6 +447,12 @@ div.location iframe{
   border-radius:5px;
   filter: invert(90%);
   }
+  @media (min-width: 900px) {
+  div.location iframe{
+    width:50%;
+    height:25vw;
+  }
+}
 footer {
 	position: static;
 	display:block;
