@@ -96,10 +96,10 @@ h1.header{
 .aspiring{
    font-size:31px;
   }
-@media (min-width: 900px) {
+@media (min-width: 810px) {
   h1{
-    font-size:110%;
-    line-heiht:100%;
+    font-size:115%;
+    line-heiht:120%;
     }
   .aspiring{
     font-size:100%;
@@ -282,7 +282,7 @@ p{
 	min-height:100vh;
 	width:100vw;
 	}
-@media (min-width: 900px) {
+@media (min-width: 810px) {
   .about .content{
     padding:0 5%;
   }
@@ -307,7 +307,7 @@ p{
 	border:1px solid var(--darkbg);
     border-radius:50%;
 	}
-@media (min-width: 900px) {
+@media (min-width: 810px) {
   div.container{
       width:47.5%;
       display:block;
@@ -425,7 +425,7 @@ input[type="submit"]{
   color:white;
   }
 
-@media (min-width: 900px) {
+@media (min-width: 810px) {
   form{
     margin:25px 25% 35px 25%;
   }
@@ -461,7 +461,7 @@ div.location iframe{
   border-radius:5px;
   filter: invert(90%);
   }
-  @media (min-width: 900px) {
+  @media (min-width: 810px) {
   div.location iframe{
     width:50%;
   }
@@ -543,7 +543,7 @@ div.close-tag{
   
 #loader {
   top:47vh;
-  left:47.5vw;
+  left:47.2vw;
   position: absolute;
   display:flex;
   align-items: center;
