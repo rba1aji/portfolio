@@ -105,13 +105,9 @@ h1.header{
   }
 @media (min-width: 810px) {
   h1{
-    font-size:120%;
-    line-heiht:130%;
+    font-size:220%;
+    line-heiht:230%;
     }
-  
-  .aspiring{
-    font-size:120%;
-  }
 }
 
 h4.resume{
