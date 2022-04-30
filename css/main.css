@@ -11,7 +11,7 @@
   box-sizing:border-box;
 }
 html {
-  font-size:62.5%;
+  /*font-size:62.5%;*/
   scroll-behavior: smooth;
   /*loading:lazy;*/
 }
@@ -39,7 +39,7 @@ target-new:tab;
 }
 h1{
   font-family: 'coolvetica';
-  font-size:50px;
+  
   text-align:left;
   color:white;
   text-shadow:0 0px 3px black;
@@ -56,34 +56,41 @@ h1.header{
   color:white;
   float:left;
   display:block;
-   font-size:51px; 
-   letter-spacing:1px;
   }
 #hi{
-  font-size:43.25px;
+  font-size:40px;
   padding-left:7.5vw;
   width:max-content;
   animation: effect1 1s ease forwards;
   animation-iteration-count:1;
   animation-delay:0s;
   
-    line-height:60px;
+    line-height:125%;
   }
 
 #Im{
-  font-size:53.5px;
+  font-size:42px;
   padding:0px 0 0 7.5vw;
   width:max-content;
   overflow:hidden;
   opacity:0;
   animation:typing 2s steps(24) forwards;
   animation-delay:1.2s; 
-  
-   line-height:60px;
+   line-height:125%;
+  }
+.balaji{
+  letter-spacing:5px;
+  padding-left:11px;
+  }
+.ji{
+  letter-spacing:6px;
+  }
+.j{
+  padding-left:4px;
   }
   
 #position{
-  font-size:48px;
+  font-size:39px;
   padding:0 0 0 7.5vw;
   overflow:hidden;
   width:max-content;
@@ -91,14 +98,14 @@ h1.header{
   animation:typing 2s steps(26) forwards;
   animation-delay:2.5s;
   
-   line-height:55px;
+   line-height:115%;
 	}
 .aspiring{
-   font-size:31px;
+   font-size:33px;
   }
 @media (min-width: 810px) {
   h1{
-    font-size:115%;
+    font-size:110%;
     line-heiht:120%;
     }
   .aspiring{
@@ -181,8 +188,8 @@ h4.resume{
 
 #B{
   position: relative;
-  font-size:70px;
-  padding-left:4px;
+  font-size:60px;
+ /* padding-left:4px;*/
   top:3.5px;
   color:#D92027;
   text-shadow:-5.5px -3px 0px  #00c9c8;
@@ -264,7 +271,7 @@ p{
 	color:white;
 	text-align: justify;
 	line-height:30px;
-	letter-spacing:0.7px;
+	/*letter-spacing:0.7px;*/
 	font-weight:475;
  }
 
