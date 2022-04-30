@@ -174,7 +174,11 @@ h4.resume{
   text-shadow:-5.5px -3px 0px  #00c9c8;
  /*#00c9c8  -5.99px -0.2px 0.2px;*/
 }
-
+@media (min-width: 900px) {
+  .aspiring{
+    font-size:43.35px;
+  }
+}
 /*#o{
   opacity:0;
   -webkit-animation:effecto 1s linear forwards;
@@ -450,7 +454,6 @@ div.location iframe{
   @media (min-width: 900px) {
   div.location iframe{
     width:50%;
-    height:25vw;
   }
 }
 footer {
@@ -473,7 +476,7 @@ footer p{
   height:42.5px;
   position:fixed;
   float:right;
-  right:7px;
+  right:6%;
   animation: up-arrow 2s ease infinite;
   -webkit-animation:up-arrow 2s ease infinite;
   animation-delay:14s;
@@ -529,8 +532,8 @@ div.close-tag{
 */
   
 #loader {
-  top:44vh;
-  left:45vw;
+  top:50vh;
+  left:50vw;
   position: absolute;
   display:flex;
   align-items: center;
