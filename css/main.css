@@ -60,6 +60,7 @@ h1.header{
    letter-spacing:1px;
   }
 #hi{
+  font-size:43.25px;
   padding-left:7.5vw;
   width:max-content;
   animation: effect1 1s ease forwards;
@@ -70,6 +71,7 @@ h1.header{
   }
 
 #Im{
+  font-size:53.5px;
   padding:0px 0 0 7.5vw;
   width:max-content;
   overflow:hidden;
@@ -91,6 +93,18 @@ h1.header{
   
    line-height:55px;
 	}
+.aspiring{
+   font-size:31px;
+  }
+@media (min-width: 900px) {
+  h1{
+    font-size:110%;
+    line-heiht:100%;
+    }
+  .aspiring{
+    font-size:100%;
+  }
+}
 
 h4.resume{
   position: absolute;
@@ -174,11 +188,7 @@ h4.resume{
   text-shadow:-5.5px -3px 0px  #00c9c8;
  /*#00c9c8  -5.99px -0.2px 0.2px;*/
 }
-@media (min-width: 900px) {
-  .aspiring{
-    font-size:43.35px;
-  }
-}
+
 /*#o{
   opacity:0;
   -webkit-animation:effecto 1s linear forwards;
@@ -532,8 +542,8 @@ div.close-tag{
 */
   
 #loader {
-  top:50vh;
-  left:50vw;
+  top:47vh;
+  left:47.5vw;
   position: absolute;
   display:flex;
   align-items: center;
