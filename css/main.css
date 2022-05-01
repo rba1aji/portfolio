@@ -317,7 +317,7 @@ p{
   }
 @media (min-width: 810px) {
   .about .content p{
-    font-size:35px;
+    font-size:33px;
     line-height:36px;
   }
 }
@@ -499,7 +499,7 @@ div.location iframe{
   @media (min-width: 810px) {
   div.location iframe{
     margin:auto;
-    width:55%;
+    width:50%;
     justify-content:center;
   }
 }
