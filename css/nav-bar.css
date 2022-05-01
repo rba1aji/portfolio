@@ -1,4 +1,5 @@
-nav ol{
+
+.nav ol{
   width:100vw;
   display:block;
   position:fixed;
@@ -14,33 +15,52 @@ nav ol{
   animation:nav 0.5s linear forwards;
   animation-delay:4.5s;
   }
-  
-nav li{
+
+.nav li{
     display:flex;
 	float:left;
 	list-style-type: none;
 	width:25%;
 	text-shadow: black 0px 3px 3px;
-  }
-nav li a{
-     font-family: Arial, Helvetica, sans-serif;
-	font-size:20.05px;
-	color:white;
-	font-weight:750;
-	background:var(--darkbg);
 	padding:8px 15px 8px 15px;
+  }
+.nav li p{
+     font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+	font-weight:750;
+	color:white;
+	background:var(--darkbg);
+	}
+  @media (min-width: 810px) {
+  .nav li p{
+    font-size:30px;
+    }
+}
+
+  @media (min-width: 810px) {
+  .nav ol{
+    width:60vw;
+    margin-left:40vw;
+  }
+    .nav li{
+      padding:6px 15.5px 6px 15px;
+      }
+}
+
+.nav li a{
+	color:white;
 	text-decoration:none;
 	cursor:pointer;
-	}
+  }
 nav li:nth-child(even):hover a,
 nav li:nth-child(even):focus a,
 nav li:nth-child(even):active a{ /*TEAL*/
     display:flex;
 	color: white;
 	border: 3px solid var(--h2-clr);
-	padding:4px 11px 4px 10px;
+	padding:3px 10px 3px 10px;
 	border-radius:2.7px;
-	width:55%;
+	width:53.5%;
 	/*box-shadow: inset 0 0 0.2em 0 var(--h2-clr);*/
 	}
 nav li:nth-child(odd):hover a,
@@ -49,7 +69,7 @@ nav li:nth-child(odd):active a{ /*RED*/
     display:flex;
 	color: white;
 	border: 3px solid  #EE4F64;
-	padding:4px 11px 4px 10px;
+	padding:3px 10px 3px 10px;
 	border-radius:3px;
-	width:55%;
+	width:53.5%;
   }
