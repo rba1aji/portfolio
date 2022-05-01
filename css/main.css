@@ -317,7 +317,8 @@ p{
   }
 @media (min-width: 810px) {
   .about .content p{
-    font-size:40px;
+    font-size:35px;
+    line-height:36px;
   }
 }
 
