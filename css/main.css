@@ -133,12 +133,12 @@ h1.header{
 h4.resume{
   position: absolute;
   font-family: 'dancing_script', cursive;
-  font-weight:normal;
-  font-size:22.5px;
+  font-weight:600;
+  font-size:23px;
   letter-spacing:3px;
   
-  margin:15vh 0 0 8.5vw;
-  padding:3px 35px 5px 35px;
+  margin:14vh 0 0 8.5vw;
+  padding:3px 32px 5px 32px;
   width:max-content;
   
   animation:nav 0.5s linear forwards;
@@ -146,13 +146,22 @@ h4.resume{
   opacity:0;
   
    /*border:1.5px solid #3be6ca;*/
-  border-radius:0 10px 0 10px;
-  border:1px solid #0BFFFF;
+  border-radius:7.5px 7.5px 7.5px 7.5px;
+  border:1.25px solid #0BFFFF;
   color:#00dcdc;
   /*background: linear-gradient(to right, #0BFFFF, #00dcdc);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;*/
   }
+ @media (min-width: 900px) {
+  h4.resume{
+    font-size:37px;
+    font-weight:bold;
+  padding:4px 40px 6px 40px;
+    border:2.25px solid #0BFFFF;
+  border-radius:10px 10px 10px 10px;
+  }
+}
   
 /** h1#position::first-letter{
   font-size:6.5vh; /13vw/
@@ -322,15 +331,16 @@ p{
 	}
 .skills iframe{
   font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size:5px;
     background:#1a1a1a;
 	display:flex;
-	margin:40px auto auto auto;
+	margin:35px auto auto auto;
 	align-items: center;
 	border:2px solid white;
-	width:300px; 
-	height:300px;
+	width:290px; 
+	height:290px;
 	border:1px solid var(--darkbg);
-    border-radius:50%;
+    border-radius:60%;
 	}
 @media (min-width: 810px) {
   div.container{
@@ -338,7 +348,6 @@ p{
       display:block;
     }
 }
-	
 	
 .works{
   position:static;
@@ -452,7 +461,7 @@ input[type="submit"]{
 
 @media (min-width: 810px) {
   form{
-    margin:25px 25% 35px 25%;
+    margin:25px 30vw 35px 30vw;
   }
 }
 
@@ -475,7 +484,7 @@ div.location h3{
   }
 div.location iframe{
   position:static;
-  display:flex;
+  display:block;
   margin-left:10vw;
   margin-right:10vw;
   align-items:center;
@@ -489,7 +498,9 @@ div.location iframe{
   }
   @media (min-width: 810px) {
   div.location iframe{
-    width:50%;
+    margin:auto;
+    width:55%;
+    justify-content:center;
   }
 }
 footer {
@@ -569,7 +580,7 @@ div.close-tag{
   
 #loader {
   top:47vh;
-  left:47.2vw;
+  left:47.25vw;
   position: absolute;
   display:flex;
   align-items: center;

@@ -6,7 +6,7 @@
 .sphere p{
    color:#eefcfc;
   font-family: 'Atkinson Hyperlegible', sans-serif;
-	font-weight:500;
+	font-weight:400;
 	text-align:center;
 	text-shadow:0 0 2px black;
 	}
@@ -23,8 +23,8 @@
   right: 0;
   bottom: 0;
   margin: auto;
-  height: 300px;
-  width: 300px;
+  height: 290px;
+  width: 290px;
   -webkit-animation: rotateSphere 11s linear infinite;
           animation: rotateSphere 11s linear infinite;
   -webkit-transform-style: preserve-3d;

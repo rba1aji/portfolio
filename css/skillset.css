@@ -2,6 +2,9 @@
   width: 75%;
   margin: 50px auto;
 }
+/*div.border{
+  border:2px solid red;
+  }*/
 .container p{
   color:black;
   }
@@ -28,9 +31,10 @@
 
 .bar{
   background-color:#1a1a1a;
-  padding: 0.5px;
-  border-radius: 15px;
-  margin-bottom: 10px;
+  padding: 0px;
+  border-radius:5px;
+  border: 1px solid gray;
+  margin-bottom:3.25vh;
   font-size: 20px;
   color:black;
   font-weight: 900;
@@ -39,7 +43,8 @@
   content:  attr(data-skill);
   background-color: #f3b0ff;
   display: inline-block;
-  padding: 5px 0 5px 10px;
+  padding: 3px;
+  padding-left:7px;
   border-radius: inherit;
   animation: load 2s 0s;
   -webkit-animation: load 2s 0s;
