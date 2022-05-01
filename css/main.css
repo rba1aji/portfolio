@@ -32,11 +32,7 @@ body{
 target-name:new;
 target-new:tab;
 }
-@media only screen and (min-width: 768px) {
-			h1{
-			font-size:150px;
-}
-}
+
 h1{
   font-family: 'coolvetica';
   
@@ -58,7 +54,7 @@ h1.header{
   display:block;
   }
 #hi{
-  font-size:40px;
+  font-size:39px;
   padding-left:7.5vw;
   width:max-content;
   animation: effect1 1s ease forwards;
@@ -78,6 +74,15 @@ h1.header{
   animation-delay:1.2s; 
    line-height:125%;
   }
+ #B{
+  position: relative;
+  font-size:60px;
+ /* padding-left:4px;*/
+  top:3.5px;
+  color:#D92027;
+  text-shadow:-5.5px -3px 0px  #00c9c8;
+ /*#00c9c8  -5.99px -0.2px 0.2px;*/
+}
 .balaji{
   letter-spacing:5px;
   padding-left:11px;
@@ -104,10 +109,25 @@ h1.header{
   /* font-size:33px;*/
   }
 @media (min-width: 810px) {
-  h1{
-    font-size:500%;
-    line-heiht:500%;
-    }
+   #position, #hi{
+     font-size:70px;
+     }
+     #Im{
+       font-size:75px;
+       }
+       #B{
+         font-size:90px;
+         }
+        .balaji{
+  letter-spacing:7px;
+  padding-left:14px;
+  }
+.ji{
+  letter-spacing:7px;
+  }
+.j{
+  padding-left:7px;
+  }
 }
 
 h4.resume{
@@ -183,15 +203,7 @@ h4.resume{
 }  
 
 
-#B{
-  position: relative;
-  font-size:60px;
- /* padding-left:4px;*/
-  top:3.5px;
-  color:#D92027;
-  text-shadow:-5.5px -3px 0px  #00c9c8;
- /*#00c9c8  -5.99px -0.2px 0.2px;*/
-}
+
 
 /*#o{
   opacity:0;
