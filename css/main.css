@@ -316,7 +316,7 @@ p{
 	font-weight:400;
   }
 @media (min-width: 810px) {
-  .about .content{
+  .about .content p{
     font-size:40px;
   }
 }
