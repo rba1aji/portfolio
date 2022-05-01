@@ -292,13 +292,13 @@ p{
 	width:100vw;
 	}
 .about .content{
-  padding-left:3%;
-  padding-right:3%;
+  padding-left:3vw;
+  padding-right:3vw;
   }
 .about .content p{
   margin:20px 20px 10px 20px;
-	font-size:17.5px;
-	 font-family: Times,Arial, Helvetica, sans-serif;
+	font-size:5vw;
+	 font-family: Arial, Helvetica, sans-serif;
 	color:white;
 	text-align: justify;
 	line-height:28px;
@@ -412,7 +412,7 @@ p{
   }
 
 form{
-  margin:25px 50px 35px 50px;
+  margin:25px 15vw 35px 15vw;
   position: relative;
   }
 form div{
@@ -422,7 +422,7 @@ form div{
   padding:8px 20px;
   }
 input[type="text"],input[type="email"],textarea{
-   font-family: Times,Arial, Helvetica, sans-serif;
+   font-family: Times New Roman,Arial, Helvetica, sans-serif;
   width:100%;
   border:2px solid transparent;
   background: transparent;
@@ -474,10 +474,11 @@ div.location h3{
 div.location iframe{
   position:static;
   display:flex;
-  margin:auto;
+  margin-left:10vw;
+  margin-right:10vw;
   align-items:center;
   justify-content: center;
-  width:85%;
+  width:80%;
   height:225px;
   border:1px solid white;
   scrolling: false;
