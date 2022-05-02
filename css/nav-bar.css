@@ -13,7 +13,7 @@
   opacity:0;
   -webkit-animation:nav 0.5s linear forwards;
   animation:nav 0.5s linear forwards;
-  animation-delay:4.5s;
+  animation-delay:4.25s;
   }
 
 .nav li{

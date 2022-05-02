@@ -1,6 +1,6 @@
 @keyframes nav{
-  	0%{opacity:0%;}
-  	100%{opacity:100%;}
+  	0%{width:0%; opacity:0%;}
+  	100%{width:100%; opacity:100%;}
   } 
   @-webkit-keyframes nav{
   	0%{opacity:0%;}
@@ -16,9 +16,11 @@
 		}
 @keyframes effect1{
     0%{transform:rotate(-460deg); 
+          /*transform:rotateY(-460deg);*/
        position: relative;
-       left:-31px;}
+       right:0;}
     100%{transform: rotate(0deg); 
+         transform:rotateY(0deg);
          position:relative; 
          left:0px;      
       }
@@ -132,5 +134,20 @@
   @-webkit-keyframes typing{
   0%{width:0; opacity:0;}
   1%{width:0; opacity:1;}
-  100%{width:100%; opacity:1;}
+  100%{width:100%; opacity:1; }
   }
+  
+  
+  @keyframes resume_effect{
+    0%{transform:rotate(-160deg); 
+          transform:rotateY(-160deg);
+       position: relative;
+       opacity:1;
+       right:0;}
+    100%{transform: rotate(0deg); 
+         transform:rotateY(0deg);
+         position:relative; 
+         opacity:1;
+         left:0px;      
+      }
+    }

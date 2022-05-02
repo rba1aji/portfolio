@@ -100,7 +100,7 @@ h1.header{
   overflow:hidden;
   width:max-content;
   opacity:0;
-  animation:typing 2s steps(26) forwards;
+  animation:typing 1.7s steps(26) forwards;
   animation-delay:2.5s;
   
    line-height:115%;
@@ -134,16 +134,20 @@ h4.resume{
   position: absolute;
   font-family: 'dancing_script', cursive;
   font-weight:600;
-  font-size:23px;
+  font-size:22px;
   letter-spacing:3px;
+  text-decoration:none;
   
   margin:14vh 0 0 8.5vw;
-  padding:3px 32px 5px 32px;
+  padding:2px 32px 4px 32px;
   width:max-content;
   
-  animation:nav 0.5s linear forwards;
+  /*animation:nav 0.5s linear forwards;*/
   animation-delay:4.75s;
+  opacity:0;*/
   opacity:0;
+  animation: resume_effect 0.7s ease forwards;
+  animation-delay:5s; 
   
    /*border:1.5px solid #3be6ca;*/
   border-radius:7.5px 7.5px 7.5px 7.5px;
@@ -152,6 +156,9 @@ h4.resume{
   /*background: linear-gradient(to right, #0BFFFF, #00dcdc);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;*/
+  }
+a:link {
+  text-decoration:none;
   }
  @media (min-width: 900px) {
   h4.resume{
@@ -385,8 +392,8 @@ p{
   }
 }*/
 .works img{
-  width:132px;
-  height:135px;
+  width:125px;
+  height:128px;
   border-radius:12.5px;
   display:flex;
 /*  margin:30px auto 60px auto; */
