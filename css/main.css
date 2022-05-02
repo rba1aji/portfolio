@@ -111,7 +111,7 @@ h1.header{
   }
 @media (min-width: 810px) {
   header{
-    padding-left:7.7vw;
+    padding-left:7.8vw;
    }
    #position, #hi{
      font-size:68px;
@@ -629,10 +629,11 @@ div.close-tag{
   }
 @media (min-width:810px){
 .bw{
-  width:50vh;
+  width:70vh;
   position: absolute;
    float:right;
-   right:0;
+   top:2vh;
+   right:5vw;
    justify-content:center;
    z-index:-1;
   }
