@@ -162,9 +162,9 @@ a:link {
   }
  @media (min-width: 900px) {
   h4.resume{
-    font-size:30px;
+    font-size:35px;
     font-weight:bold;
-    padding-right:120px;
+    padding-right:60px;
     padding-left:60px;
     border:2.25px solid #0BFFFF;
     border-radius:10px 10px 10px 10px;
