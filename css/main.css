@@ -111,11 +111,11 @@ h1.header{
 @media (min-width: 810px) {
    #position, #hi{
      font-size:68px;
-     margin-left:8vw;
+     margin-left:7.6vw;
      }
      #Im{
        font-size:75px;
-       margin-left:8vw;
+       margin-left:7.6vw;
        }
        #B{
          font-size:95px;
@@ -170,7 +170,6 @@ a:link {
     padding-left:60px;
     border:2.25px solid #0BFFFF;
     border-radius:12px 12px 12px 12px;
-    margin-left:9vw;
   }
 }
   
