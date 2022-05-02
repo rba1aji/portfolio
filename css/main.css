@@ -116,17 +116,17 @@ h1.header{
        font-size:75px;
        }
        #B{
-         font-size:90px;
+         font-size:95px;
          }
         .balaji{
-  letter-spacing:7px;
-  padding-left:14px;
+  letter-spacing:7.5px;
+  padding-left:16px;
   }
 .ji{
-  letter-spacing:7px;
+  letter-spacing:7.5px;
   }
 .j{
-  padding-left:7px;
+  padding-left:9px;
   }
 }
 
@@ -138,7 +138,7 @@ h4.resume{
   letter-spacing:3px;
   text-decoration:none;
   
-  margin:14vh 0 0 8.5vw;
+  margin:13vh 0 0 8.5vw;
   padding:2px 32px 4px 32px;
   width:max-content;
   
@@ -162,11 +162,12 @@ a:link {
   }
  @media (min-width: 900px) {
   h4.resume{
-    font-size:37px;
+    font-size:30px;
     font-weight:bold;
-  padding:4px 40px 6px 40px;
+    padding-right:120px;
+    padding-left:60px;
     border:2.25px solid #0BFFFF;
-  border-radius:10px 10px 10px 10px;
+    border-radius:10px 10px 10px 10px;
   }
 }
   

@@ -1,6 +1,6 @@
 @keyframes nav{
-  	0%{width:0%; opacity:0%;}
-  	100%{width:100%; opacity:100%;}
+  	0%{ opacity:0%;}
+  	100%{ opacity:100%;}
   } 
   @-webkit-keyframes nav{
   	0%{opacity:0%;}
@@ -139,15 +139,14 @@
   
   
   @keyframes resume_effect{
-    0%{transform:rotate(-160deg); 
-          transform:rotateY(-160deg);
+    0%{
+          transform:rotateY(-180deg);
        position: relative;
        opacity:1;
-       right:0;}
-    100%{transform: rotate(0deg); 
+       }
+    100%{
          transform:rotateY(0deg);
          position:relative; 
-         opacity:1;
-         left:0px;      
+         opacity:1; 
       }
     }
