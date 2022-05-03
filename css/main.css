@@ -111,13 +111,13 @@ h1.header{
   }
 @media (min-width: 810px) {
   header{
-    padding-left:47vw;
+    padding-left:45vw;
    }
    #position, #hi{
-     font-size:80px;
+     font-size:77.5px;
      }
      #Im{
-       font-size:87.5px;
+       font-size:85px;
        }
        #B{
          font-size:100px;
