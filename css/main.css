@@ -111,13 +111,13 @@ h1.header{
   }
 @media (min-width: 810px) {
   header{
-    padding-left:45vw;
+    padding-left:47.5vw;
    }
    #position, #hi{
-     font-size:75px;
+     font-size:77.5px;
      }
      #Im{
-       font-size:87.5px;
+       font-size:90px;
        }
        #B{
          font-size:100px;
@@ -634,8 +634,8 @@ div.close-tag{
   position: absolute;
   float:left;
   left:0;
-  top:25vh;
-  height:75vh;
+  top:22.5vh;
+  height:77.5vh;
   z-index:-1;
   }
   }
