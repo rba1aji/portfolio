@@ -114,10 +114,10 @@ h1.header{
     padding-left:45vw;
    }
    #position, #hi{
-     font-size:70px;
+     font-size:75px;
      }
      #Im{
-       font-size:85px;
+       font-size:87.5px;
        }
        #B{
          font-size:100px;
@@ -166,7 +166,7 @@ a:link {
   }
  @media (min-width: 810px) {
   h4.resume{
-    font-size:35px;
+    font-size:40px;
     font-weight:bold;
     padding-right:60px;
     padding-left:60px;
@@ -632,9 +632,9 @@ div.close-tag{
 .bw{
   position: absolute;
   float:left;
-  left:-10px;
+  left:-20px;
   top:30vh;
-  height:70vh;
+  height:75vh;
   z-index:-1;
   }
   }
