@@ -111,7 +111,7 @@ h1.header{
   }
 @media (min-width: 810px) {
   header{
-    padding-left:8vw;
+    padding-left:40vw;
    }
    #position, #hi{
      font-size:68px;
@@ -147,10 +147,10 @@ h4.resume{
   width:max-content;
   
   /*animation:nav 0.5s linear forwards;*/
-  animation-delay:4.75s;
+  animation-delay:4.5s;
   opacity:0;*/
   opacity:0;
-  animation: resume_effect 0.7s ease forwards;
+  animation: resume_effect 0.7s linear forwards;
   animation-delay:5s; 
   
    /*border:1.5px solid #3be6ca;*/
@@ -624,16 +624,17 @@ div.close-tag{
   color:red;
   }*/
 
+
 .bw{
-/*  width:0px;
+  width:0px;
   }
 @media (min-width:810px){
-.bw{*/
-  width:70vh;
+.bw{
   position: absolute;
-   float:right;
-   top:12vh;
-   right:0;
-   justify-content:center;
-   z-index:-1;
+  float:left;
+  left:0;
+  top:30vh;
+  height:70vh;
+  z-index:-1;
+  }
   }
