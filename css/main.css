@@ -166,7 +166,7 @@ a:link {
   }
  @media (min-width: 810px) {
   h4.resume{
-    font-size:40px;
+    font-size:42.5px;
     font-weight:bold;
     padding-right:60px;
     padding-left:60px;
@@ -633,7 +633,7 @@ div.close-tag{
   position: absolute;
   float:left;
   left:-20px;
-  top:30vh;
+  top:25vh;
   height:75vh;
   z-index:-1;
   }
