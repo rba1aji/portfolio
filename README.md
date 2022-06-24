@@ -1,3 +1,4 @@
-# github.io
-My Portfolio
-<h2><a href="https://balajidev.vercel.app">👉🏻Demo👈🏻</a></h2><br>
+
+# My Portfolio website
+Done with just HTML and CSS. Yet need to fix styles with bootstrap.
+
